@@ -2,44 +2,32 @@ main {
   display: flex;
   width: 100%;
   height: 700px;
-  background: linear-gradient(to bottom, black, white);
+  background-color: rgb(216, 216, 216);
 }
 
-main #contain .text-desing {
+main #contain-1 {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  position: absolute;
-  width: 400px;
-  height: 200px;
-  border-radius: 10px;
-  border: 1px solid black;
-  padding: 10px;
-}
-
-main #contain {
-  position: relative;
   width: 100%;
   height: 100%;
+  flex-direction: column;
 }
 
-main #contain #position-1 {
-  top: 150px;
-  left: 80px;
+main #contain-1 p {
+  padding: 20px 200px;
+  text-align: justify;
 }
 
-main #contain #position-2 {
-  top: 450px;
-  left: 500px;
+main #contain-2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 
-main #contain #position-3 {
-  top: 150px;
-  left: 950px;
-}
-
-main #contain #position-4 {
-  top: 450px;
-  left: 1400px;
+main #contain-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
