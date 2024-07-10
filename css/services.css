@@ -14,7 +14,7 @@ article .contain {
   align-items: center;
 }
 
-article .contain .box-desing{
+article .contain .box-desing {
   display: flex;
   width: 100%;
   height: 100%;
@@ -24,7 +24,7 @@ article .contain .box-desing{
   text-align: center;
 }
 
-article .contain #box-desing-7{
+article .contain #box-desing-7 {
   display: flex;
   width: 100%;
   height: 100%;
@@ -34,3 +34,13 @@ article .contain #box-desing-7{
   text-align: center;
 }
 
+article .contain .box-text {
+  height: 100px;
+  background-color: rgb(194, 194, 194);
+  border-radius: 0px 20px 20px 0px;
+}
+
+article .contain .box-icon {
+  background-color: rgb(161, 161, 161);
+  border-radius: 20px 0px 0px 20px;
+}
