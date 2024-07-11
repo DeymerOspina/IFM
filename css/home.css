@@ -1,29 +1,3 @@
-/* header {
-  display: flex;
-  width: 100%;
-  height: 974px;
-  background-color: black;
-  justify-content: center;
-  align-items: center;
-}
-
-header .contain {
-  display: flex;
-  width: 20%;
-  height: 70%;
-  border: solid 1px white;
-  margin: 0px 80px;
-  color: white;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-
-header .contain video {
-  width: 100%;
-  height: auto;
-} */
-
 header {
   display: flex;
   width: 100%;
