@@ -10,7 +10,7 @@ main #contain-1 {
   width: 100%;
   height: 100%;
   flex-direction: column;
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
 }
 
 main #contain-1 p {
