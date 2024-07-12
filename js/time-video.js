@@ -75,6 +75,40 @@
 
 // ------------------------------------
 
+// document.addEventListener("DOMContentLoaded", function () {
+//   var videos = document.querySelectorAll("video");
+//   var durations = [17000, 17000, 6000, 29000];
+//   var totalDuration = 0;
+
+//   videos.forEach(function (video, index) {
+//     setTimeout(function () {
+//       video.style.width = "100%";
+//       video.style.height = "100%";
+//       video.style.position = "absolute";
+//       video.style.top = "0";
+//       video.style.left = "0";
+//       video.parentElement.style.width = "100%";
+//       video.parentElement.style.height = "100%";
+
+//       video.play();
+
+//       setTimeout(function () {
+//         video.style.width = "100%";
+//         video.style.height = "100%";
+//         video.style.position = "relative";
+//         video.style.top = "";
+//         video.style.left = "";
+//         video.parentElement.style.width = "20%";
+//         video.parentElement.style.height = "20%";
+//       }, durations[index]);
+//     }, totalDuration);
+
+//     totalDuration += durations[index];
+//   });
+// });
+
+// -------------------------------------
+
 document.addEventListener("DOMContentLoaded", function () {
   var videos = document.querySelectorAll("video");
   var durations = [17000, 17000, 6000, 29000];
@@ -95,11 +129,15 @@ document.addEventListener("DOMContentLoaded", function () {
       setTimeout(function () {
         video.style.width = "100%";
         video.style.height = "100%";
-        video.style.position = "relative";
-        video.style.top = "";
-        video.style.left = "";
+        video.style.position = "absolute";
+        video.style.top = "50%";
+        video.style.left = "50%";
         video.parentElement.style.width = "20%";
-        video.parentElement.style.height = "20%";
+        video.parentElement.style.height = "70%";
+
+        video.parentElement.style.clipPath = getComputedStyle(
+          video.parentElement
+        ).clipPath;
       }, durations[index]);
     }, totalDuration);
 
