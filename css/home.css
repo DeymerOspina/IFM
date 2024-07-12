@@ -9,10 +9,8 @@ header {
 
 header .contain {
   display: flex;
-  width: 20%;
-  height: 70%;
-  border: solid 1px white;
-  margin: 0px 80px;
+  width: 25%;
+  height: 100%;
   color: white;
   justify-content: center;
   align-items: center;
@@ -21,24 +19,24 @@ header .contain {
 }
 
 header .contain-img {
-  display: flex;
-  width: 20%;
-  height: 30%;
+  display: none;
+  width: 100%;
+  height: 100%;
   margin: 0px 80px;
   color: white;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 850px;
+  transform: translate(-50%, -50%);
 }
 
 header .contain-img img {
   width: 80%;
   height: 80%;
   object-fit: cover;
-  position: absolute;
-  top: 50px;
-  left: 0;
 }
 
 header .contain video {
@@ -49,20 +47,4 @@ header .contain video {
   height: 100%;
   object-fit: cover;
   transform: translate(-50%, -50%);
-}
-
-header #recorte-1 {
-  clip-path: polygon(0% 0%, 100% 15%, 100% 100%, 0% 100%, 0% 25%);
-}
-
-header #recorte-2 {
-  clip-path: polygon(0% 20%, 100% 35%, 100% 100%, 0% 100%, 0% 25%);
-}
-
-header #recorte-3 {
-  clip-path: polygon(100% 20%, 100% 0%, 100% 100%, 0% 100%, 0% 35%);
-}
-
-header #recorte-4 {
-  clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 15%);
 }

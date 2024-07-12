@@ -109,38 +109,38 @@
 
 // -------------------------------------
 
-document.addEventListener("DOMContentLoaded", function () {
-  var videos = document.querySelectorAll("video");
-  var durations = [17000, 17000, 6000, 29000];
-  var totalDuration = 0;
+// document.addEventListener("DOMContentLoaded", function () {
+//   var videos = document.querySelectorAll("video");
+//   var durations = [17000, 17000, 6000, 29000];
+//   var totalDuration = 0;
 
-  videos.forEach(function (video, index) {
-    setTimeout(function () {
-      video.style.width = "100%";
-      video.style.height = "100%";
-      video.style.position = "absolute";
-      video.style.top = "0";
-      video.style.left = "0";
-      video.parentElement.style.width = "100%";
-      video.parentElement.style.height = "100%";
+//   videos.forEach(function (video, index) {
+//     setTimeout(function () {
+//       video.style.width = "100%";
+//       video.style.height = "100%";
+//       video.style.position = "absolute";
+//       video.style.top = "0";
+//       video.style.left = "0";
+//       video.parentElement.style.width = "100%";
+//       video.parentElement.style.height = "100%";
 
-      video.play();
+//       video.play();
 
-      setTimeout(function () {
-        video.style.width = "100%";
-        video.style.height = "100%";
-        video.style.position = "absolute";
-        video.style.top = "50%";
-        video.style.left = "50%";
-        video.parentElement.style.width = "20%";
-        video.parentElement.style.height = "70%";
+//       setTimeout(function () {
+//         video.style.width = "100%";
+//         video.style.height = "100%";
+//         video.style.position = "absolute";
+//         video.style.top = "50%";
+//         video.style.left = "50%";
+//         video.parentElement.style.width = "20%";
+//         video.parentElement.style.height = "70%";
 
-        video.parentElement.style.clipPath = getComputedStyle(
-          video.parentElement
-        ).clipPath;
-      }, durations[index]);
-    }, totalDuration);
+//         video.parentElement.style.clipPath = getComputedStyle(
+//           video.parentElement
+//         ).clipPath;
+//       }, durations[index]);
+//     }, totalDuration);
 
-    totalDuration += durations[index];
-  });
-});
+//     totalDuration += durations[index];
+//   });
+// });
