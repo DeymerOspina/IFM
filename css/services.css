@@ -2,7 +2,7 @@ article {
   display: flex;
   width: 100%;
   height: 700px;
-  background-color: rgb(216, 216, 216);
+  background-color: white;
   flex-direction: column;
 }
 
@@ -10,37 +10,26 @@ article .contain {
   display: flex;
   width: 100%;
   height: 35%;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
-article .contain .box-desing {
+article .contain .info-contain {
   display: flex;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-  padding: 50px 50px;
-  text-align: center;
+  width: 25%;
+  height: 75%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 5px 8px 2px #ececec;
+  transition: transform 0.3s ease;
+  padding: 20px;
+  flex-direction: column;
 }
 
-article .contain #box-desing-7 {
+article .contain .info-contain:hover {
+  transform: translateY(-10px);
+}
+
+article .contain .info-contain .icon-title{
   display: flex;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-  padding: 50px 520px;
-  text-align: center;
-}
-
-article .contain .box-text {
-  height: 100px;
-  background-color: rgb(194, 194, 194);
-  border-radius: 0px 20px 20px 0px;
-}
-
-article .contain .box-icon {
-  background-color: rgb(161, 161, 161);
-  border-radius: 20px 0px 0px 20px;
 }
