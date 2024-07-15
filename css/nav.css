@@ -16,6 +16,15 @@ nav #contain-1 {
   align-items: center;
 }
 
+nav #contain-1 #logonormal {
+  width: 40px;
+}
+
+nav #contain-1 #logonombre {
+  width: 60%;
+  padding-left: 10px;
+}
+
 nav #contain-2 {
   display: flex;
   width: 50%;

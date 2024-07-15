@@ -14,11 +14,12 @@ section .container {
   align-items: center;
 }
 
-section .container .marquee {
+section .container img {
   display: inline-block;
   padding: 0 2rem;
   position: relative;
   animation: move 20s linear infinite;
+  max-width: 200px;
 }
 
 @keyframes move {
