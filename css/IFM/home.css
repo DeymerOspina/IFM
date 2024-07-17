@@ -1,0 +1,88 @@
+header {
+  display: flex;
+  width: 100%;
+  height: 974px;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+header .contain {
+  display: flex;
+  width: 25%;
+  height: 100%;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+header .contain-img {
+  display: none;
+  width: 80%;
+  height: 80%;
+  margin: 0px 80px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 850px;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
+}
+
+header .contain-img img {
+  width: 60%;
+  height: 80%;
+  object-fit: cover;
+  opacity: 0;
+  animation: fadeInAnimation 2s forwards;
+}
+
+header .contain video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+}
+
+header .contain-img .contain-buttons {
+  display: flex;
+}
+
+header .contain-img .contain-buttons a {
+  text-decoration: none;
+  color: white;
+  animation-delay: 1s;
+}
+
+header .contain-img .contain-buttons .buttons {
+  display: flex;
+  background-color: #18181b;
+  border: none;
+  border-radius: 5px;
+  width: 170px;
+  height: 45px;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  animation-delay: 1s;
+}
+
+header .contain-img .contain-buttons .buttons:hover {
+  cursor: pointer;
+  background-color: #222224;
+}
+
+@keyframes fadeInAnimation {
+  to {
+    opacity: 1;
+  }
+}
