@@ -3,29 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/home.css" />
-    <link rel="stylesheet" href="css/nav.css" />
-    <link rel="stylesheet" href="css/we.css" />
-    <link rel="stylesheet" href="css/services.css" />
-    <link rel="stylesheet" href="css/footer.css" />
-    <link rel="stylesheet" href="css/section.css" />
-    <link rel="stylesheet" href="css/general.css" />
-    <link rel="icon" href="archivos/logos_e_iconos/favicon.ico" />
-    <script src="js/videos.js"></script>
-    <script src="js/time-video.js"></script>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/home.css" />
+    <link rel="stylesheet" href="styles/nav.css" />
+    <link rel="stylesheet" href="styles/we.css" />
+    <link rel="stylesheet" href="styles/services.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/section.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="icon" href="assets/icons/favicon.ico" />
+    <script src="scripts/videos.js"></script>
+    <script src="scripts/time-video.js"></script>
     <title>Innovative Football Management</title>
   </head>
   <body>
     <nav>
       <div id="contain-1">
+        <img src="assets/icons/escudo.png" alt="logo" id="logonormal" />
         <img
-          src="archivos/logos_e_iconos/escudo.png"
-          alt="logo"
-          id="logonormal"
-        />
-        <img
-          src="archivos/logos_e_iconos/IFM_Nombre.png"
+          src="assets/icons/IFM_Nombre.png"
           alt="logo-nombre"
           id="logonombre"
         />
@@ -40,22 +36,19 @@
     </nav>
     <header>
       <div class="contain">
-        <video id="video1" src="archivos/videos/gol1.mp4" muted></video>
+        <video id="video1" src="assets/videos/gol1.mp4" muted></video>
       </div>
       <div class="contain">
-        <video id="video2" src="archivos/videos/gol2.mp4" muted></video>
+        <video id="video2" src="assets/videos/gol2.mp4" muted></video>
       </div>
       <div class="contain">
-        <video id="video3" src="archivos/videos/gol3.mp4" muted></video>
+        <video id="video3" src="assets/videos/gol3.mp4" muted></video>
       </div>
       <div class="contain">
-        <video id="video4" src="archivos/videos/gol4.mp4" muted></video>
+        <video id="video4" src="assets/videos/gol4.mp4" muted></video>
       </div>
       <div class="contain-img">
-        <img
-          src="archivos/logos_e_iconos/IFM_NoStars.png"
-          alt="Logo Principal"
-        />
+        <img src="assets/icons/IFM_NoStars.png" alt="Logo Principal" />
       </div>
     </header>
 
@@ -101,24 +94,60 @@
         </div>
       </div>
       <div id="contain-2">
-        <img src="archivos/imagenes/balon2.jpg" alt="image" />
+        <img src="assets/images/balon2.jpg" alt="image" />
       </div>
     </main>
 
     <section>
       <div class="container">
-        <img src="archivos/imagenes/Real_Madrid.png" alt="image" />
-        <img src="archivos/imagenes/FC_Barcelona.png" alt="image" />
-        <img src="archivos/imagenes/Manchester_City_FC_badge.png" alt="image" />
-        <img src="archivos/imagenes/Paris_Saint-Germain.png" alt="image" />
+        <img src="assets/images/Real_Madrid.png" alt="image" />
+        <img src="assets/images/FC_Barcelona.png" alt="image" />
+        <img src="assets/images/Manchester_City_FC_badge.png" alt="image" />
+        <img src="assets/images/Paris_Saint-Germain.png" alt="image" />
       </div>
     </section>
 
     <article>
       <div class="contain">
-        <div class="info-contain">
+        <div class="card">
+          <h3 class="card__title">Asesoría a Clubes</h3>
+          <p class="card__content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit.
+          </p>
+          <div class="card__date">July 18, 2024</div>
+          <div class="card__arrow">
+            <img src="assets/svg/club.svg" alt="icon" />
+          </div>
+        </div>
+        <div class="card">
+          <h3 class="card__title">Promoción de Jugador</h3>
+          <p class="card__content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit.
+          </p>
+          <div class="card__date">July 18, 2024</div>
+          <div class="card__arrow">
+            <img src="assets/svg/player.svg" alt="icon" />
+          </div>
+        </div>
+        <div class="card">
+          <h3 class="card__title">Apoyo 24/7</h3>
+          <p class="card__content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit.
+          </p>
+          <div class="card__date">July 18, 2024</div>
+          <div class="card__arrow">
+            <img src="assets/svg/help_24_7.svg" alt="icon" />
+          </div>
+        </div>
+        <!-- <div class="info-contain">
           <div class="icon-title">
-            <img src="archivos/svg/club.svg" alt="icon" />
+            <img src="assets/svg/club.svg" alt="icon" />
             <h1>Asesoría a Clubes</h1>
           </div>
           <p>
@@ -127,10 +156,10 @@
             eveniet doloremque, ratione quibusdam quia corrupti facere
             consectetur obcaecati possimus. Id, minima molestias.
           </p>
-        </div>
-        <div class="info-contain">
+        </div> -->
+        <!-- <div class="info-contain">
           <div class="icon-title">
-            <img src="archivos/svg/player.svg" alt="icon" />
+            <img src="assets/svg/player.svg" alt="icon" />
             <h1>Promoción de Jugador</h1>
           </div>
           <p>
@@ -139,10 +168,10 @@
             eveniet doloremque, ratione quibusdam quia corrupti facere
             consectetur obcaecati possimus. Id, minima molestias.
           </p>
-        </div>
-        <div class="info-contain">
+        </div> -->
+        <!-- <div class="info-contain">
           <div class="icon-title">
-            <img src="archivos/svg/help_24-7.svg" alt="icon" />
+            <img src="assets/svg/help_24-7.svg" alt="icon" />
             <h1>Apoyo 24/7</h1>
           </div>
           <p>
@@ -151,12 +180,48 @@
             eveniet doloremque, ratione quibusdam quia corrupti facere
             consectetur obcaecati possimus. Id, minima molestias.
           </p>
-        </div>
+        </div> -->
       </div>
       <div class="contain">
-        <div class="info-contain">
+        <div class="card">
+          <h3 class="card__title">Marketing Deportivo</h3>
+          <p class="card__content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit.
+          </p>
+          <div class="card__date">July 18, 2024</div>
+          <div class="card__arrow">
+            <img src="assets/svg/marketing.svg" alt="icon" />
+          </div>
+        </div>
+        <div class="card">
+          <h3 class="card__title">Scouting</h3>
+          <p class="card__content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit.
+          </p>
+          <div class="card__date">July 18, 2024</div>
+          <div class="card__arrow">
+            <img src="assets/svg/scouting.svg" alt="icon" />
+          </div>
+        </div>
+        <div class="card">
+          <h3 class="card__title">Asistencia Legal</h3>
+          <p class="card__content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit.
+          </p>
+          <div class="card__date">July 18, 2024</div>
+          <div class="card__arrow">
+            <img src="assets/svg/asistance_legal.svg" alt="icon" />
+          </div>
+        </div>
+        <!-- <div class="info-contain">
           <div class="icon-title">
-            <img src="archivos/svg/marketing.svg" alt="icon" />
+            <img src="assets/svg/marketing.svg" alt="icon" />
             <h1>Marketing Deportivo</h1>
           </div>
           <p>
@@ -165,10 +230,10 @@
             eveniet doloremque, ratione quibusdam quia corrupti facere
             consectetur obcaecati possimus. Id, minima molestias.
           </p>
-        </div>
-        <div class="info-contain">
+        </div> -->
+        <!-- <div class="info-contain">
           <div class="icon-title">
-            <img src="archivos/svg/scouting.svg" alt="icon" />
+            <img src="assets/svg/scouting.svg" alt="icon" />
             <h1>Scouting</h1>
           </div>
           <p>
@@ -177,10 +242,10 @@
             eveniet doloremque, ratione quibusdam quia corrupti facere
             consectetur obcaecati possimus. Id, minima molestias.
           </p>
-        </div>
-        <div class="info-contain">
+        </div> -->
+        <!-- <div class="info-contain">
           <div class="icon-title">
-            <img src="archivos/svg/asistance_legal.svg" alt="icon" />
+            <img src="assets/svg/asistance_legal.svg" alt="icon" />
             <h1>Asistencia Legal</h1>
           </div>
           <p>
@@ -189,12 +254,24 @@
             eveniet doloremque, ratione quibusdam quia corrupti facere
             consectetur obcaecati possimus. Id, minima molestias.
           </p>
-        </div>
+        </div> -->
       </div>
       <div class="contain">
-        <div class="info-contain">
+        <div class="card">
+          <h3 class="card__title">Busqueda y Negociacion</h3>
+          <p class="card__content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit.
+          </p>
+          <div class="card__date">July 18, 2024</div>
+          <div class="card__arrow">
+            <img src="assets/svg/search_business.svg" alt="icon" />
+          </div>
+        </div>
+        <!-- <div class="info-contain">
           <div class="icon-title">
-            <img src="archivos/svg/search_business.svg" alt="icon" />
+            <img src="assets/svg/search_business.svg" alt="icon" />
             <h1>Busqueda y Negociacion</h1>
           </div>
           <p>
@@ -203,7 +280,7 @@
             eveniet doloremque, ratione quibusdam quia corrupti facere
             consectetur obcaecati possimus. Id, minima molestias.
           </p>
-        </div>
+        </div> -->
       </div>
     </article>
 
@@ -219,13 +296,13 @@
       </div>
       <div id="redes">
         <a href="instagram.com"
-          ><img src="archivos/logos_e_iconos/instagram.png" alt="Instagram"
+          ><img src="assets/icons/instagram.png" alt="Instagram"
         /></a>
         <a href="facebook.com"
-          ><img src="archivos/logos_e_iconos/facebook.png" alt="Facebook"
+          ><img src="assets/icons/facebook.png" alt="Facebook"
         /></a>
         <a href="whatsapp.com"
-          ><img src="archivos/logos_e_iconos/whatsapp.png" alt="Whatsapp"
+          ><img src="assets/icons/whatsapp.png" alt="Whatsapp"
         /></a>
       </div>
     </footer>
