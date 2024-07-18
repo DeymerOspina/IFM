@@ -1,0 +1,57 @@
+main {
+  display: flex;
+  width: 100%;
+  height: 700px;
+  background-color: white;
+}
+
+main #contain-1 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main #contain-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+main #contain-1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  pointer-events: none;
+}
+
+main #contain-1 .contain-text {
+  position: relative;
+  color: white;
+  text-align: left;
+  z-index: 1;
+  padding-right: 55%;
+  padding-left: 15%;
+}
+
+main #contain-1 .contain-text p, h1{
+  color: white;
+}
+
+main #contain-1 .contain-text h1{
+ font-size: 40px; 
+}
+
+main #contain-1 .contain-text p{
+  font-size: 20px;
+}
+
