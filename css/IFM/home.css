@@ -52,35 +52,6 @@ header .contain video {
   transform: translate(-50%, -50%);
 }
 
-header .contain-img .contain-buttons {
-  display: flex;
-}
-
-header .contain-img .contain-buttons a {
-  text-decoration: none;
-  color: white;
-  animation-delay: 1s;
-}
-
-header .contain-img .contain-buttons .buttons {
-  display: flex;
-  background-color: #18181b;
-  border: none;
-  border-radius: 5px;
-  width: 170px;
-  height: 45px;
-  margin: 5px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  animation-delay: 1s;
-}
-
-header .contain-img .contain-buttons .buttons:hover {
-  cursor: pointer;
-  background-color: #222224;
-}
-
 @keyframes fadeInAnimation {
   to {
     opacity: 1;
