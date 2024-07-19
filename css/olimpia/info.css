@@ -21,6 +21,7 @@ main #contain-1 img {
   position: absolute;
   top: 0;
   left: 0;
+  transform: scaleX(-1);
 }
 
 main #contain-1::after {
@@ -43,15 +44,15 @@ main #contain-1 .contain-text {
   padding-left: 15%;
 }
 
-main #contain-1 .contain-text p,
-h1 {
+main #contain-1 .contain-text p, h1{
   color: white;
 }
 
-main #contain-1 .contain-text h1 {
-  font-size: 40px;
+main #contain-1 .contain-text h1{
+ font-size: 40px; 
 }
 
-main #contain-1 .contain-text p {
+main #contain-1 .contain-text p{
   font-size: 20px;
 }
+
