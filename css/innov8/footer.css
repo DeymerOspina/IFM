@@ -23,3 +23,9 @@ footer #redes {
   align-items: center;
   color: whitesmoke;
 }
+
+footer img{
+  width: 60px;
+  padding: 10px;
+  filter: invert();
+}
