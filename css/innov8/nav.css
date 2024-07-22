@@ -63,3 +63,23 @@ nav {
 .scrolled .botones a:hover {
   color: var(--naranja_neon); /* Color con scrolled */
 }
+
+/* Back */
+
+.back {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+  background-color: var(--azul_marino);
+  border-radius: 100%;
+  top: 90%;
+  left: 95%;
+}
+
+.back:hover {
+  background-color: #024283;
+}

@@ -57,38 +57,78 @@ main #position-right {
   z-index: 2;
 }
 
-main #position-left a:hover,
-main #position-right a:hover {
+main #position-left:hover,
+main #position-right:hover {
   color: #255784;
   background-color: #2196f3;
   box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
   transition-delay: 0.1s;
+  cursor: pointer;
+}
+
+main #position-left,
+main #position-right {
+  border: none;
+  background: none;
+}
+
+#sidePanel2 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 500px;
+  height: 100%;
+  background-color: #181818ef;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+  transform: translateX(100%);
+  transition: transform 0.5s ease;
+  padding: 20px;
+  z-index: 5;
+  font-size: 25px;
+  padding: 40px;
+  color: #c0c0c0;
 }
 
 #sidePanel {
   position: fixed;
   top: 0;
-  right: 0;
-  width: 300px;
+  left: 0;
+  width: 500px;
   height: 100%;
-  background-color: #f1f1f1;
-  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
-  transform: translateX(100%);
+  background-color: #181818ef;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+  transform: translateX(-100%);
   transition: transform 0.5s ease;
   padding: 20px;
+  z-index: 5;
+  font-size: 25px;
+  padding: 40px;
+  color: #c0c0c0;
+}
+
+#sidePanel2.show {
+  transform: translateX(0);
 }
 
 #sidePanel.show {
   transform: translateX(0);
 }
 
-/* Agregar una animación para suavizar la entrada */
-@keyframes slideIn {
+@keyframes slideIn2 {
   from {
-      transform: translateX(100%);
+    transform: translateX(100%);
   }
   to {
-      transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
   }
 }
 
@@ -96,9 +136,25 @@ main #position-right a:hover {
   display: none;
 }
 
+.show-animation2 {
+  display: block;
+  animation: slideIn2 0.5s forwards;
+}
+
 .show-animation {
   display: block;
   animation: slideIn 0.5s forwards;
+}
+
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 4;
 }
 
 /* hasta aqui se borra */
@@ -113,8 +169,7 @@ main .logo-contain .buttoms {
 }
 
 main .logo-contain .buttoms a,
-#position-right a,
-#position-left a {
+main button {
   position: relative;
   display: inline-block;
   padding: 15px 30px;

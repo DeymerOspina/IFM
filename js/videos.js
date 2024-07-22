@@ -26,8 +26,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const videos = [
     document.getElementById("video1"),
     document.getElementById("video2"),
-    document.getElementById("video3"),
-    document.getElementById("video4"),
   ];
 
   const containImg = document.querySelector(".contain-img");
