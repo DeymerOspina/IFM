@@ -1,4 +1,4 @@
-.section {
+article {
   display: flex;
   background-color: #191919;
   width: 100%;
@@ -6,7 +6,11 @@
   color: white;
 }
 
-.section .content-contact {
+article h1 {
+  color: var(--azul_electrico);
+}
+
+article .content-contact {
   display: flex;
   width: 30%;
   height: 100%;
@@ -17,18 +21,23 @@
   text-align: start;
 }
 
-.section .content-ubi {
+article .content-contact img {
+  filter: invert(48%) sepia(93%) saturate(1392%) hue-rotate(184deg)
+    brightness(94%) contrast(93%);
+}
+
+article .content-ubi {
   display: flex;
   width: 70%;
   height: 100%;
   flex-direction: column;
 }
 
-.section .content-ubi .ubi {
+article .content-ubi .ubi {
   display: flex;
 }
 
-.section .content-ubi .ubi .content-img {
+article .content-ubi .ubi .content-img {
   display: flex;
   width: 35%;
   height: 100%;
@@ -37,7 +46,7 @@
   flex-direction: column;
 }
 
-.section .content-ubi .content-img img {
+article .content-ubi .ubi .content-img img {
   width: 75%;
   height: 75%;
   padding-bottom: 20px;
@@ -45,14 +54,24 @@
   transition: transform 0.3s ease;
 }
 
-.section .content-ubi .content-img img:hover {
+article .content-ubi .ubi .content-img img:hover {
   transform: translateY(-10px);
 }
 
-.section .content-ubi .title {
+article .content-ubi .title {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 24px;
   padding-top: 40px;
+}
+
+article .content-ubi .content-img #colombia:hover {
+  border-radius: 5px;
+  content: url(../../assets/svg/Flag_Colombia.svg);
+}
+
+article .content-ubi .content-img #eeuu:hover {
+  border-radius: 5px;
+  content: url(../../assets/svg/Flag_United_States.svg);
 }

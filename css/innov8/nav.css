@@ -14,12 +14,8 @@ nav {
   transition: background-color 0.3s;
 }
 
-.logo {
-  display: flex;
-}
-
 .logo img {
-  height: 40px;
+  height: 40px; /* Ajusta el tamaño del logo según sea necesario */
   margin-left: 20px;
 }
 
@@ -38,7 +34,7 @@ nav {
 }
 
 .botones a:hover {
-  color: var(--dorado); /* Color sin scrolled */
+  color: var(--azul_electrico); /* Color sin scrolled */
 }
 
 .content {
@@ -65,7 +61,7 @@ nav {
 }
 
 .scrolled .botones a:hover {
-  color: var(--dorado); /* Color con scrolled */
+  color: var(--naranja_neon); /* Color con scrolled */
 }
 
 /* Back */
