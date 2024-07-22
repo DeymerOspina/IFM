@@ -1,3 +1,5 @@
+@import url(../index/colors.css);
+
 main {
   display: flex;
   width: 100%;
@@ -40,8 +42,8 @@ main #contain-1 .contain-text {
   color: white;
   text-align: left;
   z-index: 1;
-  padding-right: 55%;
-  padding-left: 15%;
+  padding-right: 65%;
+  padding-left: 5%;
 }
 
 main #contain-1 .contain-text p,
@@ -51,6 +53,7 @@ main #contain-1 .contain-text h1 {
 
 main #contain-1 .contain-text h1 {
   font-size: 40px;
+  color: var(--azul_real);
 }
 
 main #contain-1 .contain-text p {
