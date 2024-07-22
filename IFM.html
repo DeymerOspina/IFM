@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,29 +19,24 @@
     <title>Innovative Football Management</title>
   </head>
   <body>
-    <div class="back">
-      <a href="index.html"
-        ><img src="assets/svg/arrow_back.svg" alt="Back"
-      /></a>
-    </div>
-
     <nav id="navbar">
       <div class="logo">
-        <img src="assets/icons/ifmlogorb.png" alt="logoExample" />
-        <!-- <img src="assets/icons/IFM_Nombre.png" alt="" /> -->
+        <img src="assets/icons/escudo.png" alt="logoExample" />
+        <img src="assets/icons/IFM_Nombre2.png" alt="" />
       </div>
       <div class="botones">
-        <a href="index.html">Innovate</a>
-        <span></span>
-        <a href="#home">Home</a>
-        <span></span>
-        <a href="#our-services">Companny</a>
-        <span></span>
-        <a href="#contact">Contact</a>
-        <span></span>
+        <a href="index.html" data-en="Home" data-es="Inicio">Inicio</a>
+        <a href="#our-services" data-en="Company" data-es="Compañia"
+          >Compañia</a
+        >
+        <a href="#contact" data-en="Contact" data-es="Contacto">Contacto</a>
+      </div>
+      <div class="button_language" style="padding-right: 20px">
+        <button id="languageToggle">En 🇺🇸 / Es 🇲🇽</button>
+        <script src="js/change_language.js"></script>
       </div>
     </nav>
-    <header>
+    <header id="volver">
       <div class="contain">
         <video id="video1" src="assets/videos/gol1.mp4" muted></video>
       </div>
@@ -49,7 +44,7 @@
         <video id="video2" src="assets/videos/gol2.mp4" muted></video>
       </div>
       <div class="contain-img">
-        <img src="assets/icons/ifmlogorb.png" alt="Logo Principal" />
+        <img src="assets/icons/ifmlastlogorb.png" alt="Logo Principal" />
       </div>
     </header>
 
@@ -60,7 +55,10 @@
         <div class="contain-text">
           <h1>Innovative Football Management (IFM)</h1>
           <br />
-          <p>
+          <p
+            data-en="Innovative Football Management (IFM) is dedicated to providing a comprehensive comprehensive representation for professional athletes, encompassing all aspects of aspects necessary to ensure their success and well-being. Our our services include expert management in marketing, legal and financial advice and financial advice, allowing athletes to focus on their performance while we handle the performance while we take care of the rest. With a highly team of highly trained professionals, IFM is committed to providing personalized and to provide personalized and strategic support, ensuring that each athlete achieves each athlete reaches their full potential both on and off the field."
+            data-es="Innovative Football Management (IFM) se dedica a ofrecer una representación integral para atletas profesionales, abarcando todos los aspectos necesarios para asegurar su éxito y bienestar. Nuestros servicios incluyen una gestión experta en marketing, asesoría legal y financiera, permitiendo a los deportistas centrarse en su rendimiento mientras nosotros nos encargamos del resto. Con un equipo de profesionales altamente capacitados, IFM se compromete a proporcionar un apoyo personalizado y estratégico, garantizando que cada atleta alcance su máximo potencial tanto dentro como fuera del campo."
+          >
             Innovative Football Management (IFM) se dedica a ofrecer una
             representación integral para atletas profesionales, abarcando todos
             los aspectos necesarios para asegurar su éxito y bienestar. Nuestros
@@ -92,13 +90,23 @@
             <img src="assets/images/beige.jpg" alt="Cliente" />
           </div>
           <div class="title">
-            <h1>Edier Ocampo - Futbolista profesional</h1>
-            <p>
+            <h1
+              data-en="Edier Ocampo - Professional soccer player"
+              data-es="Edier Ocampo - Futbolista profesional"
+            >
+              Edier Ocampo - Futbolista profesional
+            </h1>
+            <p
+              data-en="Thanks to IFM, I have been able to advance my career and continue to achieve my goals. my goals."
+              data-es="Gracias a IFM, he logrado avanzar mi carrera y seguir cumpliendo mis metas."
+            >
               Gracias a IFM, he logrado avanzar mi carrera y seguir cumpliendo
               mis metas.
             </p>
             <br />
-            <p>July 21, 2024</p>
+            <p data-en="July 21, 2024" data-es="Julio 21, 2024">
+              Julio 21, 2024
+            </p>
           </div>
         </div>
         <div class="info-contain">
@@ -106,15 +114,25 @@
             <img src="assets/images/beige.jpg" alt="Cliente" />
           </div>
           <div class="title">
-            <h1>Javier Pérez - Futbolista profesional</h1>
-            <p>
+            <h1
+              data-en="Javier Pérez - Professional soccer player"
+              data-es="Javier Pérez - Futbolista profesional"
+            >
+              Javier Pérez - Futbolista profesional
+            </h1>
+            <p
+              data-en="IFM provided me with the perfect platform to showcase my talent. Their team was always there to advise and support me every step of the way. step of the way. Today, I play in one of the most competitive leagues in the world, and I couldn't have done it without them. in the world, and I couldn't have done it without them."
+              data-es="IFM me proporcionó la plataforma perfecta para mostrar mi talento. Su equipo siempre estuvo ahí para asesorarme y apoyarme en cada paso del camino. Hoy, juego en una de las ligas más competitivas del mundo, y no podría haberlo hecho sin ellos."
+            >
               IFM me proporcionó la plataforma perfecta para mostrar mi talento.
               Su equipo siempre estuvo ahí para asesorarme y apoyarme en cada
               paso del camino. Hoy, juego en una de las ligas más competitivas
               del mundo, y no podría haberlo hecho sin ellos.
             </p>
             <br />
-            <p>July 21, 2024</p>
+            <p data-en="July 21, 2024" data-es="Julio 21, 2024">
+              Julio 21, 2024
+            </p>
           </div>
         </div>
         <div class="info-contain">
@@ -122,15 +140,25 @@
             <img src="assets/images/beige.jpg" alt="Cliente" />
           </div>
           <div class="title">
-            <h1>Carlos Rivas - Futbolista profesional</h1>
-            <p>
+            <h1
+              data-en="Carlos Rivas - Professional soccer player"
+              data-es="Carlos Rivas - Futbolista profesional"
+            >
+              Carlos Rivas - Futbolista profesional
+            </h1>
+            <p
+              data-en="The comprehensive support I received from IFM was critical to my success. Thanks to their marketing management, my profile has grown exponentially, and now I am a exponentially, and I am now reference both on and off the field."
+              data-es="El apoyo integral que recibí de IFM fue fundamental para mi éxito. Gracias a su gestión de marketing, mi perfil ha crecido exponencialmente, y ahora soy un referente tanto dentro como fuera del campo."
+            >
               El apoyo integral que recibí de IFM fue fundamental para mi éxito.
               Gracias a su gestión de marketing, mi perfil ha crecido
               exponencialmente, y ahora soy un referente tanto dentro como fuera
               del campo.
             </p>
             <br />
-            <p>July 21, 2024</p>
+            <p data-en="July 21, 2024" data-es="Julio 21, 2024">
+              Julio 21, 2024
+            </p>
           </div>
         </div>
       </div>
@@ -138,7 +166,7 @@
 
     <div class="section">
       <div class="content-contact">
-        <h1>CONTACTO</h1>
+        <h1 data-en="CONTACT" data-es="CONTACTO">CONTACTO</h1>
         <br />
         <p>
           <img src="assets/svg/mail.svg" alt="email" /> info@innovativegroup.com
@@ -150,7 +178,7 @@
       </div>
       <div class="content-ubi">
         <div class="title">
-          <h1>UBICACIONES</h1>
+          <h1 data-en="LOCATIONS" data-es="UBICACIONES">UBICACIONES</h1>
         </div>
         <div class="ubi">
           <div class="content-img">
@@ -191,6 +219,13 @@
         /></a>
       </div>
     </footer>
+    <div class="back">
+      <button
+        onclick="document.getElementById('volver').scrollIntoView({ behavior: 'smooth' });"
+      >
+        <img src="assets/svg/arrow_upward.svg" alt="Volver" />
+      </button>
+    </div>
   </body>
 </html>
 
