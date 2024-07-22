@@ -23,5 +23,3 @@ header .static-image {
   z-index: -1; /* Para que quede detrás del contenido */
   filter: brightness(70%);
 }
-
-

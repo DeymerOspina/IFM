@@ -146,7 +146,6 @@ main #position-right {
   animation: slideIn 0.5s forwards;
 }
 
-
 #overlay {
   position: fixed;
   top: 0;
