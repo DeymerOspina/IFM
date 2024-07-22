@@ -1,0 +1,65 @@
+@import url(../index/colors.css);
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(51, 51, 51, 0); /* Transparente */
+  color: white;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  transition: background-color 0.3s;
+}
+
+.logo img {
+  height: 40px; /* Ajusta el tamaño del logo según sea necesario */
+  margin-left: 20px;
+}
+
+.botones {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.botones a {
+  color: white;
+  text-decoration: none;
+  padding: 0 20px;
+  transition: color 0.3s;
+}
+
+.botones a:hover {
+  color: var(--azul_electrico); /* Color sin scrolled */
+}
+
+.content {
+  padding-top: 60px; /* Espacio para el nav fijo */
+}
+
+/* .scrolled {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+} */
+
+/* .scrolled .botones a {
+  color: black;
+} */
+
+.scrolled {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: black;
+}
+
+.scrolled .botones a {
+  display: flex;
+  color: white;
+}
+
+.scrolled .botones a:hover {
+  color: var(--naranja_neon); /* Color con scrolled */
+}
