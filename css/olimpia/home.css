@@ -23,10 +23,3 @@ header .static-image {
   z-index: -1; /* Para que quede detrás del contenido */
   filter: brightness(70%);
 }
-
-header #logoExample{
-  position: relative;
-  width: 5%;
-  top: -45%;
-  left: -47%;
-}

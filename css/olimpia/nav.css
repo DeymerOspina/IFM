@@ -34,7 +34,7 @@ nav {
 }
 
 .botones a:hover {
-  color: var(--azul_electrico); /* Color sin scrolled */
+  color: var(--rojo); /* Color sin scrolled */
 }
 
 .content {
@@ -61,7 +61,7 @@ nav {
 }
 
 .scrolled .botones a:hover {
-  color: var(--naranja_neon); /* Color con scrolled */
+  color: var(--rojo); /* Color con scrolled */
 }
 
 /* Back */

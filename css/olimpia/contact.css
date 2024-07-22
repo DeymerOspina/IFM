@@ -6,6 +6,10 @@
   color: white;
 }
 
+.section h1 {
+  color: var(--amarillo);
+}
+
 .section .content-contact {
   display: flex;
   width: 30%;
@@ -15,6 +19,11 @@
   font-size: 24px;
   flex-direction: column;
   text-align: start;
+}
+
+.section .content-contact img {
+  filter: invert(75%) sepia(83%) saturate(511%) hue-rotate(356deg)
+    brightness(100%) contrast(107%);
 }
 
 .section .content-ubi {
@@ -37,7 +46,7 @@
   flex-direction: column;
 }
 
-.section .content-ubi .content-img img {
+.section .content-ubi .ubi .content-img img {
   width: 75%;
   height: 75%;
   padding-bottom: 20px;
@@ -45,7 +54,7 @@
   transition: transform 0.3s ease;
 }
 
-.section .content-ubi .content-img img:hover {
+.section .content-ubi .ubi .content-img img:hover {
   transform: translateY(-10px);
 }
 
@@ -55,4 +64,14 @@
   align-items: center;
   font-size: 24px;
   padding-top: 40px;
+}
+
+.section .content-ubi .content-img #colombia:hover {
+  border-radius: 5px;
+  content: url(../../assets/svg/Flag_Colombia.svg);
+}
+
+.section .content-ubi .content-img #eeuu:hover {
+  border-radius: 5px;
+  content: url(../../assets/svg/Flag_United_States.svg);
 }

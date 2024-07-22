@@ -1,3 +1,5 @@
+@import url(../index/colors.css);
+
 footer {
   display: flex;
   width: 100%;
@@ -27,5 +29,7 @@ footer #redes {
 footer img {
   width: 60px;
   padding: 10px;
-  filter: invert();
+  filter: invert(75%) sepia(83%) saturate(511%) hue-rotate(356deg)
+    brightness(100%) contrast(107%);
+  /* filter: invert(); */
 }
