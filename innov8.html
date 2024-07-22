@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/innov8/section.css" />
     <link rel="stylesheet" href="css/innov8/article.css" />
     <link rel="stylesheet" href="css/innov8/nav.css" />
-    <!-- <link rel="icon" href="assets/icons/favicon.ico" /> -->
+    <link rel="icon" href="assets/icons/innov8favicon.ico" />
     <script src="js/scroll.js"></script>
     <title>Innov8</title>
   </head>
@@ -22,39 +22,42 @@
         ><img src="assets/svg/arrow_back.svg" alt="Back"
       /></a>
     </div>
+
     <nav id="navbar">
       <div class="logo">
         <img src="assets/icons/innov8logorb.png" alt="logoExample" />
       </div>
       <div class="botones">
-        <a href="index.html">Innovate</a>
-        <span></span>
-        <a href="#home">Home</a>
-        <span></span>
-        <a href="#our-services">Companny</a>
-        <span></span>
-        <a href="#contact">Contact</a>
-        <span></span>
+        <a href="index.html" data-en="Home" data-es="Inicio">Inicio</a>
+        <a href="#our-services" data-en="Company" data-es="Compañia"
+          >Compañia</a
+        >
+        <a href="#contact" data-en="Contact" data-es="Contacto">Contacto</a>
+      </div>
+      <div class="button_language" style="padding-right: 20px">
+        <button id="languageToggle">English</button>
+        <script src="js/change_language.js"></script>
       </div>
     </nav>
 
-    <header>
+    <header id="volver">
       <div class="static-image">
         <img src="assets/images/marketing1.jpg" alt="" />
       </div>
       <img src="assets/icons/innov8logorb.png" alt="Logo Principal" />
     </header>
 
-    <section>
-      <!-- <h1>NUESTRO EQUIPO</h1> -->
-    </section>
+    <section></section>
     <main>
       <div id="contain-1">
         <img src="assets/images/marketing2.jpg" alt="image" />
         <div class="contain-text">
           <h1>Innov8 Marketing & Management</h1>
           <br />
-          <p>
+          <p
+            data-en="Innov8 Marketing & Management specializes in brand development, strategic partnerships and creative management. development, strategic partnerships and creative management. Our mission is to is to transform ideas into successful realities through innovative and customized solutions. innovative and customized solutions. With a holistic approach, we offer services ranging from the creation of a strong brand identity to the implementation of marketing from the creation of a strong brand identity to the implementation of effective marketing strategies and the management of commercial alliances that enhance our clients' growth. our clients' growth. At Innov8, we are committed to to delivering exceptional results through close collaboration and limitless creativity."
+            data-es="Innov8 Marketing & Management se especializa en el desarrollo de marca, asociaciones estratégicas y gestión creativa. Nuestra misión es transformar las ideas en realidades exitosas a través de soluciones innovadoras y personalizadas. Con un enfoque integral, ofrecemos servicios que abarcan desde la creación de una identidad de marca sólida hasta la implementación de estrategias de marketing efectivas y la gestión de alianzas comerciales que potencian el crecimiento de nuestros clientes. En Innov8, nos comprometemos a brindar resultados excepcionales mediante una colaboración cercana y una creatividad sin límites."
+          >
             Innov8 Marketing & Management se especializa en el desarrollo de
             marca, asociaciones estratégicas y gestión creativa. Nuestra misión
             es transformar las ideas en realidades exitosas a través de
@@ -72,7 +75,7 @@
 
     <article>
       <div class="content-contact">
-        <h1>CONTACTO</h1>
+        <h1 data-en="CONTACT" data-es="CONTACTO">CONTACTO</h1>
         <br />
         <p>
           <img src="assets/svg/mail.svg" alt="email" /> info@innovativegroup.com
@@ -84,7 +87,7 @@
       </div>
       <div class="content-ubi">
         <div class="title">
-          <h1>UBICACIONES</h1>
+          <h1 data-en="LOCATIONS" data-es="UBICACIONES">UBICACIONES</h1>
         </div>
         <div class="ubi">
           <div class="content-img">
@@ -125,5 +128,12 @@
         /></a>
       </div>
     </footer>
+    <div class="back">
+      <button
+        onclick="document.getElementById('volver').scrollIntoView({ behavior: 'smooth' });"
+      >
+        <img src="assets/svg/arrow_upward.svg" alt="Volver" />
+      </button>
+    </div>
   </body>
 </html>

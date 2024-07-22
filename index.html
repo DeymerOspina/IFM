@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,55 +7,105 @@
     <link rel="stylesheet" href="css/index/main.css" />
     <link rel="stylesheet" href="css/index/general.css" />
     <link rel="stylesheet" href="css/index/article.css" />
-
+    <link rel="stylesheet" href="css/index/lenguage.css" />
+    <link rel="icon" href="assets/icons/innovatefavicon.ico" />
     <title>Innovative</title>
   </head>
   <body>
-    <!-- <article>
-      <div class="position-left"></div>
-      <div class="position-right"></div>
-    </article> -->
+    <div class="button_language" style="padding-right: 20px">
+      <button id="languageToggle">English</button>
+      <script src="js/change_language.js"></script>
+    </div>
+
     <main>
       <div class="image-contain">
         <img src="assets/images/instagram1.jpeg" alt="imagen1" />
         <img src="assets/images/instagram2.jpg" alt="imagen2" />
       </div>
 
-      <button id="position-left">INTRODUCCION</button>
-      <button id="position-right">SOBRE NOSOTROS</button>
+      <button id="position-left" data-en="INTRODUCTION" data-es="INTRODUCCION">
+        INTRODUCCION
+      </button>
+      <button id="position-right" data-en="ABOUT US" data-es="SOBRE NOSOTROS">
+        SOBRE NOSOTROS
+      </button>
 
       <div id="overlay" class="hidden"></div>
 
       <div id="sidePanel" class="hidden">
-        <h1 style="color: #1f4e79">Acerca de Nosotros</h1>
+        <h1
+          style="color: #1f4e79"
+          data-en="About Us"
+          data-es="Acerca de Nosotros"
+        >
+          Acerca de Nosotros
+        </h1>
         <br />
-        Innovative Group es un holding dedicado a ofrecer un ecosistema refinado
-        para nuestros clientes. Apoyamos y potenciamos carreras en deportes,
-        entretenimiento, cultura y negocios a través de nuestras divisiones
-        especializadas."<br /><br />
+        <p
+          data-en="Innovative Group is a holding company dedicated to providing a refined ecosystem for our customers. ecosystem for our clients. We support and empower careers in sports, entertainment entertainment, culture and business through our specialized divisions. specialized divisions."
+          data-es="Innovative Group es un holding dedicado a ofrecer un ecosistema refinado para nuestros clientes. Apoyamos y potenciamos carreras en deportes, entretenimiento, cultura y negocios a través de nuestras divisiones especializadas."
+        >
+          Innovative Group es un holding dedicado a ofrecer un ecosistema
+          refinado para nuestros clientes. Apoyamos y potenciamos carreras en
+          deportes, entretenimiento, cultura y negocios a través de nuestras
+          divisiones especializadas."
+        </p>
+        <br /><br />
         <a href="" style="display: flex; width: 100%; justify-content: end"
           ><img src="assets/svg/arrow_forward.svg" alt="Back"
         /></a>
       </div>
 
       <div id="sidePanel2" class="hidden">
-        <h1 style="color: #1f4e79">Objetivo</h1>
+        <h1 style="color: #1f4e79" data-en="Objectives" data-es="Objetivos">
+          Objetivos
+        </h1>
         <br />
-        Innovative Group se dedica a proporcionar soluciones innovadoras en
-        deportes, entretenimiento, cultura y negocios. Nuestra misión es apoyar
-        y potenciar las carreras de nuestros clientes a través de servicios
-        personalizados y excelencia operativa.
+        <p
+          data-en="Innovative Group is dedicated to providing innovative solutions in sports, entertainment, culture and business. sports, entertainment, culture and business. Our mission is to to support and enhance our clients' careers through customized services and personalized services and operational excellence."
+          data-es="Innovative Group se dedica a proporcionar soluciones innovadoras en deportes, entretenimiento, cultura y negocios. Nuestra misión es apoyar y potenciar las carreras de nuestros clientes a través de servicios personalizados y excelencia operativa."
+        >
+          Innovative Group se dedica a proporcionar soluciones innovadoras en
+          deportes, entretenimiento, cultura y negocios. Nuestra misión es
+          apoyar y potenciar las carreras de nuestros clientes a través de
+          servicios personalizados y excelencia operativa.
+        </p>
+
         <br /><br />
-        <h2 style="color: #255784">Visión:</h2>
-        Ser líderes en la gestión integral de talentos
-        deportivos/entretenimiento y estrategias de marketing innovadoras.
+        <h2 style="color: #255784" data-en="Vision" data-es="Visión:">
+          Visión:
+        </h2>
+        <p
+          data-en="To be leaders in integrated talent management, sports/entertainment entertainment and innovative marketing strategies."
+          data-es="Ser líderes en la gestión integral de talentos deportivos/entretenimiento y estrategias de marketing innovadoras."
+        >
+          Ser líderes en la gestión integral de talentos
+          deportivos/entretenimiento y estrategias de marketing innovadoras.
+        </p>
+
         <br /><br />
-        <h2 style="color: #255784">Misión:</h2>
-        Apoyar a nuestros clientes en cada etapa de su carrera con soluciones
-        innovadoras y personalizadas.
+        <h2 style="color: #255784" data-en="Mission" data-es="Misión:">
+          Misión:
+        </h2>
+        <p
+          data-en="To support our clients at every stage of their careers with innovative and customized solutions. innovative and customized solutions."
+          data-es="Apoyar a nuestros clientes en cada etapa de su carrera con soluciones innovadoras y personalizadas."
+        >
+          Apoyar a nuestros clientes en cada etapa de su carrera con soluciones
+          innovadoras y personalizadas.
+        </p>
+
         <br /><br />
-        <h2 style="color: #255784">Valores:</h2>
-        Innovación, Profesionalismo, Integridad, Compromiso.
+        <h2 style="color: #255784" data-en="Values" data-es="Valores:">
+          Valores:
+        </h2>
+        <p
+          data-en="Innovation, Professionalism, Integrity, Commitment."
+          data-es="Innovación, Profesionalismo, Integridad, Compromiso."
+        >
+          Innovación, Profesionalismo, Integridad, Compromiso.
+        </p>
+
         <br /><br />
         <a href=""><img src="assets/svg/arrow_back.svg" alt="Back" /></a>
       </div>
@@ -65,21 +115,36 @@
       <div class="logo-contain">
         <img src="assets/icons/innovativelogorb.png" alt="imagen-logo" />
         <div class="buttoms">
-          <a href="IFM.html" id="desing-ifm">
+          <a
+            href="IFM.html"
+            id="desing-ifm"
+            data-en="Discover IFM"
+            data-es="Descubre IFM"
+          >
             <span></span>
             <span></span>
             <span></span>
             <span></span>
             Descubre IFM</a
           >
-          <a href="innov8.html" id="desing-innov8">
+          <a
+            href="innov8.html"
+            id="desing-innov8"
+            data-en="Explore Innov8"
+            data-es="Explora Innov8"
+          >
             <span></span>
             <span></span>
             <span></span>
             <span></span>
             Explora Innov8</a
           >
-          <a href="olimpia.html" id="desing-olimpia">
+          <a
+            href="olimpia.html"
+            id="desing-olimpia"
+            data-en="About C.D. Olimpia"
+            data-es="Conoce C.D. Olimpia"
+          >
             <span></span>
             <span></span>
             <span></span>
