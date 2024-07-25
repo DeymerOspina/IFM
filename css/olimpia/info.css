@@ -12,8 +12,8 @@ main #contain-1 {
   height: 100%;
   position: relative;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
 }
 
 main #contain-1 img {
@@ -38,12 +38,19 @@ main #contain-1::after {
 }
 
 main #contain-1 .contain-text {
+  display: flex;
+  width: 50%;
+  height: 100%;
   position: relative;
   color: white;
-  text-align: left;
+  flex-direction: column;
+  /* text-align: left; */
   z-index: 1;
-  padding-right: 65%;
-  padding-left: 5%;
+  /* padding-right: 65%;
+  padding-left: 5%; */
+}
+
+main #contain-1 .contain-text .contain-service {
 }
 
 main #contain-1 .contain-text p,
