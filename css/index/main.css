@@ -12,16 +12,24 @@ main .image-contain {
   width: 100%;
   height: 100%;
   display: flex;
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
   filter: grayscale();
-  opacity: 50%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
   z-index: 1;
 }
+
 main .image-contain img {
-  width: 100%;
+  width: 50%;
   height: 100%;
   overflow: hidden;
   object-fit: cover;
+}
+
+.flash {
+  opacity: 0.5 !important;
 }
 
 main .logo-contain {
