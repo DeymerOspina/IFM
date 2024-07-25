@@ -23,7 +23,6 @@ main #contain-1 #fondo {
   position: absolute;
   top: 0;
   left: 0;
-  transform: scaleX(-1);
 }
 
 main #contain-1::after {
@@ -58,7 +57,7 @@ main #contain-1 .contain-text h1 {
 
 main #contain-1 .contain-text h1 {
   font-size: 40px;
-  color: var(--azul_real);
+  color: var(--dorado);
 }
 
 main #contain-1 .contain-text p {
@@ -75,7 +74,6 @@ main #contain-1 .contain-service {
   z-index: 1;
   justify-content: space-around;
 }
-
 main #contain-1 .contain-service .button-container {
   display: flex;
 }
@@ -90,24 +88,19 @@ main #contain-1 .contain-service .button-container .content {
   z-index: 0;
   padding-left: 40px;
 }
-
 /* Preguntar diseño */
-
 /* main #contain-1 .contain-service .button-container:hover .content {
   opacity: 1;
   transform: translateX(0);
 } */
-
 main #contain-1 .contain-service .button-container:focus-within .content {
   opacity: 1;
   transform: translateX(0);
 }
-
 main #contain-1 .contain-service .button-container button {
   background: none;
   border: none;
 }
-
 main #contain-1 .contain-service .button-container button:hover {
   cursor: pointer;
 }
