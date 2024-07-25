@@ -83,7 +83,7 @@ main #contain-1 .contain-service .button-container {
 main #contain-1 .contain-service .button-container .content {
   opacity: 0;
   transform: translateX(100%);
-  transition: all 0.5 ease-in-out;
+  transition: all 0.5s ease-in-out;
   top: 50%;
   left: 100%;
   transform: translate(50%, 0%);
@@ -91,7 +91,7 @@ main #contain-1 .contain-service .button-container .content {
   padding-left: 40px;
 }
 
-/* Preguntar diesño */
+/* Preguntar diseño */
 
 /* main #contain-1 .contain-service .button-container:hover .content {
   opacity: 1;
