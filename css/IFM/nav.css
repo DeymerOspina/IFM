@@ -41,10 +41,6 @@ nav {
   color: var(--dorado); /* Color sin scrolled */
 }
 
-.content {
-  padding-top: 60px; /* Espacio para el nav fijo */
-}
-
 .scrolled {
   background-color: rgba(0, 0, 0, 0.5);
   color: black;
