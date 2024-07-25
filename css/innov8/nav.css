@@ -41,15 +41,6 @@ nav {
   padding-top: 60px; /* Espacio para el nav fijo */
 }
 
-/* .scrolled {
-  background-color: rgba(255, 255, 255, 0.5);
-  color: black;
-} */
-
-/* .scrolled .botones a {
-  color: black;
-} */
-
 .scrolled {
   background-color: rgba(0, 0, 0, 0.5);
   color: black;
