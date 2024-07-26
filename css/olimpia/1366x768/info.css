@@ -1,0 +1,115 @@
+@import url(../index/colors.css);
+
+@media only screen and (min-width: 700px) and (max-width: 1199px) {
+  main {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background-color: white;
+  }
+
+  main #contain-1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    /* align-items: center;
+  justify-content: center; */
+  }
+
+  main #contain-1 #fondo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(-1);
+  }
+
+  main #contain-1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+    pointer-events: none;
+  }
+
+  main #contain-1 .contain-text {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    /* position: relative; */
+    color: white;
+    flex-direction: column;
+    /* text-align: left; */
+    z-index: 1;
+    padding-right: 15%;
+    padding-left: 5%;
+    justify-content: center;
+  }
+
+  main #contain-1 .contain-text p,
+  main #contain-1 .contain-text h1 {
+    color: white;
+  }
+
+  main #contain-1 .contain-text h1 {
+    font-size: 40px;
+    color: var(--azul_real);
+  }
+
+  main #contain-1 .contain-text p {
+    font-size: 20px;
+  }
+
+  main #contain-1 .contain-service {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    color: white;
+    flex-direction: column;
+    z-index: 1;
+    justify-content: space-around;
+  }
+
+  main #contain-1 .contain-service .button-container {
+    display: flex;
+  }
+
+  main #contain-1 .contain-service .button-container .content {
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all 0.5s ease-in-out;
+    /* transform: translate(50%, 0%);
+  top: 50%; */
+    left: 100%;
+    z-index: 0;
+    padding-left: 40px;
+  }
+
+  /* Preguntar diseño */
+
+  /* main #contain-1 .contain-service .button-container:hover .content {
+  opacity: 1;
+  transform: translateX(0);
+} */
+
+  main #contain-1 .contain-service .button-container:focus-within .content {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  main #contain-1 .contain-service .button-container button {
+    background: none;
+    border: none;
+  }
+
+  main #contain-1 .contain-service .button-container button:hover {
+    cursor: pointer;
+  }
+}
