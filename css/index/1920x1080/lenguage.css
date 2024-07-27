@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1401px) {
   .button_language #languageToggle {
     border: none;
     background: none;
@@ -11,10 +11,11 @@
     align-items: center;
     background-color: rgba(255, 255, 255, 0.623);
     border-radius: 5px;
-    position: fixed;
+    position: absolute;
     z-index: 100;
-    top: 20px;
-    left: 94%;
+    top: 2rem;
+    right: 3rem;
+    padding: 0rem 4rem;
   }
 
   .button_language #languageToggle:hover {
