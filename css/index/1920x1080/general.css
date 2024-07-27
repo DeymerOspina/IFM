@@ -1,14 +1,19 @@
-p {
-  color: #6e6e77;
-}
+@media only screen and (min-width: 1401px) {
+  h1 {
+    color: #1f4e79;
+    font-size: 40px;
+  }
 
-h1,
-h2,
-h3,
-h4 {
-  color: #09090b;
-}
+  h2 {
+    color: #1f4e79;
+    font-size: 30px;
+  }
 
-* {
-  font-family: sans-serif;
+  p {
+    font-size: 24px;
+  }
+
+  * {
+    font-family: sans-serif;
+  }
 }
