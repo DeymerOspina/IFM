@@ -1,12 +1,3 @@
-<<<<<<< HEAD
 @import url(lenguage.css);
 @import url(main.css);
 @import url(general.css);
-=======
-@import url(colors.css);
-@import url(article.css);
-@import url(general.css);
-@import url(lenguage.css);
-@import url(main.css);
-@import url(normalize.css);
->>>>>>> 0793ebe (Organizacion temporal de los archivos para usar responsive)
