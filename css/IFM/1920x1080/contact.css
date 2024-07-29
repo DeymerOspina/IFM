@@ -40,7 +40,7 @@
 
   .section .content-ubi .ubi .content-img {
     display: flex;
-    width: 35%;
+    width: 25%;
     height: 100%;
     padding-top: 40px;
     align-items: center;
@@ -71,18 +71,18 @@
     padding-top: 40px;
   }
 
-  .section .content-ubi .content-img #colombia:hover {
+  .section .content-ubi .content-img #mexico:hover {
     border-radius: 5px;
-    content: url(../../assets/svg/Flag_Colombia.svg);
+    content: url(../../../assets/images/Flag_of_Mexico.png);
   }
 
-  /* .section .content-ubi .content-img #eeuu:hover {
-  border-radius: 5px;
-  content: url(../../assets/svg/Flag_United_States.svg);
-} */
+  .section .content-ubi .content-img #colombia:hover {
+    border-radius: 5px;
+    content: url(../../../assets/svg/Flag_Colombia.svg);
+  }
 
   .section .content-ubi .content-img #eeuu:hover {
     border-radius: 5px;
-    content: url(../../assets/images/Flag_of_the_United_States.png);
+    content: url(../../../assets/images/Flag_of_the_United_States.png);
   }
 }
