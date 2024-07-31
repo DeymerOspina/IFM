@@ -2,7 +2,7 @@
   article {
     display: flex;
     width: 100%;
-    height: 400px;
+    height: 50rem;
     background-color: white;
     justify-content: center;
     align-items: center;
@@ -11,15 +11,16 @@
   article .contain {
     display: flex;
     width: 100%;
-    height: 35%;
-    justify-content: space-around;
+    height: 100%;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
 
   article .contain .info-contain {
     display: flex;
-    width: 30%;
-    height: 220px;
+    width: 100%;
+    height: 13.75rem;
     background-color: white;
     border-radius: 10px;
     box-shadow: 2px 5px 8px 2px #ececec;
@@ -27,6 +28,7 @@
     padding: 20px;
     text-align: start;
     align-items: center;
+    margin: 10px 0px;
   }
 
   article .contain .info-contain:hover {
@@ -41,18 +43,18 @@
   }
 
   article .contain .info-contain .icon img {
-    width: 100px;
-    height: 160px;
+    width: 6.25rem;
+    height: 10rem;
   }
 
   article .contain .info-contain h1 {
-    font-size: 18px;
+    font-size: 15px;
     padding-bottom: 10px;
     font-family: "Inter", sans-serif;
   }
 
   article .contain .info-contain p {
-    font-size: 15px;
+    font-size: 12px;
     font-family: "Inter", sans-serif;
   }
 }
