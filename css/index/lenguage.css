@@ -1,0 +1,78 @@
+@media only screen and (min-width: 1200px) {
+  .button_language #languageToggle {
+    border: none;
+    background: none;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.623);
+    border-radius: 5px;
+    position: absolute;
+    z-index: 100;
+    top: 2rem;
+    right: 3rem;
+    padding: 0rem 4rem;
+  }
+
+  .button_language #languageToggle:hover {
+    background-color: #024283;
+    color: white;
+    transition: 0.25s;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .button_language #languageToggle {
+    border: none;
+    background: none;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.623);
+    border-radius: 5px;
+    position: absolute;
+    z-index: 100;
+    right: 2rem;
+    top: 3rem;
+  }
+
+  .button_language #languageToggle:hover {
+    background-color: #024283;
+    color: white;
+    transition: 0.25s;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .button_language #languageToggle {
+    border: none;
+    background: none;
+    cursor: pointer;
+    width: 75px;
+    height: 35px;
+    display: flex;
+    font-size: 8px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.623);
+    border-radius: 5px;
+    position: absolute;
+    z-index: 100;
+    right: 2rem;
+    top: 2rem;
+  }
+
+  .button_language #languageToggle:hover {
+    background-color: #024283;
+    color: white;
+    transition: 0.25s;
+  }
+}
