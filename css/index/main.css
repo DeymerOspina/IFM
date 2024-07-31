@@ -79,7 +79,7 @@
     transform: translateX(100%);
     transition: transform 0.5s ease;
     padding: 20px;
-    z-index: 4;
+    z-index: 5;
     font-size: 25px;
     padding: 40px;
     color: #c0c0c0;
@@ -96,7 +96,7 @@
     transform: translateX(-100%);
     transition: transform 0.5s ease;
     padding: 20px;
-    z-index: 4;
+    z-index: 5;
     font-size: 25px;
     padding: 40px;
     color: #c0c0c0;
@@ -208,7 +208,7 @@
     transform: translateX(100%);
     transition: transform 0.5s ease;
     padding: 20px;
-    z-index: 4;
+    z-index: 5;
     font-size: 25px;
     padding: 40px;
     color: #c0c0c0;
@@ -225,7 +225,7 @@
     transform: translateX(-100%);
     transition: transform 0.5s ease;
     padding: 20px;
-    z-index: 4;
+    z-index: 5;
     font-size: 25px;
     padding: 40px;
     color: #c0c0c0;
@@ -339,7 +339,7 @@
     transform: translateX(100%);
     transition: transform 0.5s ease;
     padding: 20px;
-    z-index: 4;
+    z-index: 5;
     font-size: 25px;
     padding: 40px;
     color: #c0c0c0;
@@ -356,7 +356,7 @@
     transform: translateX(-100%);
     transition: transform 0.5s ease;
     padding: 20px;
-    z-index: 4;
+    z-index: 5;
     font-size: 25px;
     padding: 40px;
     color: #c0c0c0;
@@ -528,5 +528,5 @@ main .logo-contain .buttoms a:hover span:nth-child(4) {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
-  z-index: 5;
+  z-index: 4;
 }
