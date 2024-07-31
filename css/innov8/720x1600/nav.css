@@ -13,11 +13,12 @@
     align-items: center;
     z-index: 1000;
     transition: background-color 0.3s;
+    font-size: 10px;
   }
 
   .logo img {
-    height: 70px; /* Ajusta el tamaño del logo según sea necesario */
-    margin-left: 20px;
+    height: 0px; /* Ajusta el tamaño del logo según sea necesario */
+    margin-left: 0px;
   }
 
   .botones {
@@ -36,10 +37,6 @@
 
   .botones a:hover {
     color: var(--azul_electrico); /* Color sin scrolled */
-  }
-
-  .content {
-    padding-top: 60px; /* Espacio para el nav fijo */
   }
 
   .scrolled {
@@ -62,8 +59,8 @@
     border: none;
     background: none;
     cursor: pointer;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,7 +69,7 @@
     background-color: var(--azul_marino);
     border-radius: 100%;
     top: 90%;
-    left: 95%;
+    left: 80%;
   }
 
   .back button:hover {
@@ -84,14 +81,15 @@
     border: none;
     background: none;
     cursor: pointer;
-    width: 100px;
-    height: 50px;
+    width: 40px;
+    height: 25px;
     display: flex;
     font-size: 15px;
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.623);
     border-radius: 5px;
+    font-size: 10px;
   }
 
   nav #languageToggle:hover {
