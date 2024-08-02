@@ -171,12 +171,6 @@ main #contain-1 .contain-service .button-container button:hover {
     height: 50%;
 
     align-items: center;
-    padding-right: 50px;
-  }
-
-  main #contain-1 .contain-text p,
-  main #contain-1 .contain-text h1 {
-    color: white;
   }
 
   main #contain-1 .contain-text h1 {
