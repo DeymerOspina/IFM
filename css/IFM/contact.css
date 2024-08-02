@@ -106,6 +106,7 @@
   }
 }
 
+/* Estilos específicos para pantallas medianas (min-width: 768px y max-width: 1199px) */
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   .section {
     height: 38rem;

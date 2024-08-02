@@ -72,6 +72,7 @@ article .contain .info-contain p {
   }
 }
 
+/* Estilos específicos para pantallas medianas (min-width: 768px y max-width: 1199px) */
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   article {
     height: 400px;
@@ -101,6 +102,7 @@ article .contain .info-contain p {
   }
 }
 
+/* Estilos específicos para pantallas pequeñas (max-width: 767px) */
 @media only screen and (max-width: 767px) {
   article {
     height: 50rem;
