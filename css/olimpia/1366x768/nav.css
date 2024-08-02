@@ -65,14 +65,14 @@
     align-items: center;
     position: fixed;
     z-index: 2;
-    background-color: var(--azul_marino);
+    background-color: var(--azul_real);
     border-radius: 100%;
     top: 90%;
     left: 95%;
   }
 
   .back button:hover {
-    background-color: #024283;
+    background-color: #5477e2;
     transition: 0.1s;
   }
 
@@ -91,7 +91,7 @@
   }
 
   nav #languageToggle:hover {
-    background-color: #024283;
+    background-color: var(--rojo);
     color: white;
     transition: 0.25s;
   }
