@@ -1,114 +1,71 @@
 @import url(../index/colors.css);
 
+/* Estilos generales (no cambian en @media) */
+footer {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  background-color: #111111;
+}
+
+footer .contain {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  flex-direction: column;
+}
+
+footer #redes {
+  display: flex;
+  width: 35%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+}
+
+footer img {
+  padding: 10px;
+  filter: invert(75%) sepia(83%) saturate(511%) hue-rotate(356deg)
+    brightness(100%) contrast(107%);
+  /* filter: invert(); */
+}
+
+/* Estilos específicos para pantallas grandes */
 @media only screen and (min-width: 1200px) {
-  footer {
-    display: flex;
-    width: 100%;
-    height: 200px;
-    background-color: #111111;
-  }
-
-  footer .contain {
-    display: flex;
-    width: 50%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    color: whitesmoke;
-    flex-direction: column;
-  }
-
-  footer #redes {
-    display: flex;
-    width: 35%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    color: whitesmoke;
-  }
-
-  footer img {
-    width: 60px;
-    padding: 10px;
-    filter: invert(75%) sepia(83%) saturate(511%) hue-rotate(356deg)
-      brightness(100%) contrast(107%);
-    /* filter: invert(); */
-  }
+  /* Ya no se necesitan estilos específicos aquí porque son los generales */
 }
 
+/* Estilos específicos para pantallas medianas */
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
-  footer {
-    display: flex;
-    width: 100%;
-    height: 200px;
-    background-color: #111111;
-  }
-
-  footer .contain {
-    display: flex;
-    width: 50%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    color: whitesmoke;
-    flex-direction: column;
-  }
-
-  footer #redes {
-    display: flex;
-    width: 35%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    color: whitesmoke;
-  }
-
-  footer img {
-    width: 60px;
-    padding: 10px;
-    filter: invert(75%) sepia(83%) saturate(511%) hue-rotate(356deg)
-      brightness(100%) contrast(107%);
-    /* filter: invert(); */
-  }
+  /* Ya no se necesitan estilos específicos aquí porque son los generales */
 }
 
+/* Estilos específicos para pantallas pequeñas */
 @media only screen and (max-width: 767px) {
   footer {
-    display: flex;
-    width: 100%;
-    height: 200px;
-    background-color: #111111;
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
   }
 
   footer .contain {
-    display: flex;
     width: 100%;
     height: 50%;
-    justify-content: center;
-    align-items: center;
     color: rgb(145, 145, 145);
-    flex-direction: column;
     text-align: center;
     padding: 0px 20px;
   }
 
   footer #redes {
-    display: flex;
     width: 100%;
     height: 50%;
-    justify-content: center;
-    align-items: center;
-    color: whitesmoke;
   }
 
   footer img {
     width: 50px;
-    padding: 10px;
-    filter: invert(75%) sepia(83%) saturate(511%) hue-rotate(356deg)
-      brightness(100%) contrast(107%);
-    /* filter: invert(); */
   }
 }
