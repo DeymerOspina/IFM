@@ -1,43 +1,63 @@
+/* Estilos generales aplicables a todos los tamaños de pantalla */
+article {
+  display: flex;
+  width: 100%;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+article .contain {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+article .contain .info-contain {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 5px 8px 2px #ececec;
+  transition: transform 0.3s ease;
+  padding: 20px;
+  text-align: start;
+  align-items: center;
+}
+
+article .contain .info-contain:hover {
+  transform: translateY(-10px);
+}
+
+article .contain .info-contain .icon {
+  display: flex;
+  justify-content: center;
+  padding-right: 20px;
+  align-items: center;
+}
+
+article .contain .info-contain h1 {
+  font-family: "Inter", sans-serif;
+  padding-bottom: 10px;
+}
+
+article .contain .info-contain p {
+  font-family: "Inter", sans-serif;
+}
+
+/* Estilos específicos para pantallas grandes (min-width: 1200px) */
 @media only screen and (min-width: 1200px) {
   article {
-    display: flex;
-    width: 100%;
     height: 400px;
-    background-color: white;
-    justify-content: center;
-    align-items: center;
   }
 
   article .contain {
-    display: flex;
-    width: 100%;
     height: 35%;
-    justify-content: space-around;
-    align-items: center;
   }
 
   article .contain .info-contain {
-    display: flex;
     width: 30%;
     height: 220px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 2px 5px 8px 2px #ececec;
-    transition: transform 0.3s ease;
-    padding: 20px;
-    text-align: start;
-    align-items: center;
-  }
-
-  article .contain .info-contain:hover {
-    transform: translateY(-10px);
-  }
-
-  article .contain .info-contain .icon {
-    display: flex;
-    justify-content: center;
-    padding-right: 20px;
-    align-items: center;
   }
 
   article .contain .info-contain .icon img {
@@ -47,56 +67,26 @@
 
   article .contain .info-contain h1 {
     font-size: 18px;
-    padding-bottom: 10px;
-    font-family: "Inter", sans-serif;
   }
 
   article .contain .info-contain p {
     font-size: 15px;
-    font-family: "Inter", sans-serif;
   }
 }
 
+/* Estilos específicos para pantallas medianas (min-width: 768px y max-width: 1199px) */
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   article {
-    display: flex;
-    width: 100%;
     height: 400px;
-    background-color: white;
-    justify-content: center;
-    align-items: center;
   }
 
   article .contain {
-    display: flex;
-    width: 100%;
     height: 35%;
-    justify-content: space-around;
-    align-items: center;
   }
 
   article .contain .info-contain {
-    display: flex;
     width: 30%;
     height: 15rem;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 2px 5px 8px 2px #ececec;
-    transition: transform 0.3s ease;
-    padding: 20px;
-    text-align: start;
-    align-items: center;
-  }
-
-  article .contain .info-contain:hover {
-    transform: translateY(-10px);
-  }
-
-  article .contain .info-contain .icon {
-    display: flex;
-    justify-content: center;
-    padding-right: 20px;
-    align-items: center;
   }
 
   article .contain .info-contain .icon img {
@@ -106,58 +96,29 @@
 
   article .contain .info-contain h1 {
     font-size: 14px;
-    padding-bottom: 10px;
-    font-family: "Inter", sans-serif;
   }
 
   article .contain .info-contain p {
     font-size: 12px;
-    font-family: "Inter", sans-serif;
   }
 }
 
+/* Estilos específicos para pantallas pequeñas (max-width: 767px) */
 @media only screen and (max-width: 767px) {
   article {
-    display: flex;
-    width: 100%;
     height: 50rem;
-    background-color: white;
-    justify-content: center;
-    align-items: center;
   }
 
   article .contain {
-    display: flex;
-    width: 100%;
     height: 100%;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
   }
 
   article .contain .info-contain {
-    display: flex;
     width: 100%;
     height: 13.75rem;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 2px 5px 8px 2px #ececec;
-    transition: transform 0.3s ease;
-    padding: 20px;
-    text-align: start;
-    align-items: center;
     margin: 10px 0px;
-  }
-
-  article .contain .info-contain:hover {
-    transform: translateY(-10px);
-  }
-
-  article .contain .info-contain .icon {
-    display: flex;
-    justify-content: center;
-    padding-right: 20px;
-    align-items: center;
   }
 
   article .contain .info-contain .icon img {
@@ -167,12 +128,9 @@
 
   article .contain .info-contain h1 {
     font-size: 15px;
-    padding-bottom: 10px;
-    font-family: "Inter", sans-serif;
   }
 
   article .contain .info-contain p {
     font-size: 12px;
-    font-family: "Inter", sans-serif;
   }
 }

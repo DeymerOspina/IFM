@@ -1,196 +1,130 @@
+/* Estilos generales aplicables a todos los tamaños de pantalla */
+.section {
+  display: flex;
+  background-color: #080808ea;
+  width: 100%;
+  color: white;
+}
+
+.section h1 {
+  color: var(--azul_marino);
+}
+
+.section .content-contact {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  font-size: 24px;
+}
+
+.section .content-contact img {
+  filter: invert(48%) sepia(93%) saturate(1392%) hue-rotate(184deg)
+    brightness(94%) contrast(93%);
+}
+
+.section .content-ubi {
+  display: flex;
+  flex-direction: column;
+}
+
+.section .content-ubi .ubi {
+  display: flex;
+}
+
+.section .content-ubi .ubi .content-img {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+}
+
+.section .content-ubi .ubi .content-img img {
+  width: 75%;
+  height: 75%;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.section .content-ubi h2 {
+  color: white;
+}
+
+.section .content-ubi .ubi .content-img img:hover {
+  transform: translateY(-10px);
+}
+
+.section .content-ubi .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  padding-top: 40px;
+}
+
+.section .content-ubi .content-img #mexico:hover {
+  border-radius: 5px;
+  content: url(../../assets/images/Flag_of_Mexico.png);
+}
+
+.section .content-ubi .content-img #colombia:hover {
+  border-radius: 5px;
+  content: url(../../assets/svg/Flag_Colombia.svg);
+}
+
+.section .content-ubi .content-img #eeuu:hover {
+  border-radius: 5px;
+  content: url(../../assets/images/Flag_of_the_United_States.png);
+}
+
+/* Estilos específicos para pantallas grandes (min-width: 1200px) */
 @media only screen and (min-width: 1200px) {
   .section {
-    display: flex;
-    background-color: #080808ea;
-    width: 100%;
     height: 420px;
-    color: white;
-  }
-
-  .section h1 {
-    color: var(--azul_marino);
   }
 
   .section .content-contact {
-    display: flex;
     width: 30%;
     height: 100%;
     padding-top: 40px;
     padding-left: 100px;
-    font-size: 24px;
-    flex-direction: column;
-    text-align: start;
-  }
-
-  .section .content-contact img {
-    filter: invert(48%) sepia(93%) saturate(1392%) hue-rotate(184deg)
-      brightness(94%) contrast(93%);
   }
 
   .section .content-ubi {
-    display: flex;
     width: 70%;
     height: 100%;
-    flex-direction: column;
-  }
-
-  .section .content-ubi .ubi {
-    display: flex;
-  }
-
-  .section .content-ubi .ubi .content-img {
-    display: flex;
-    width: 25%;
-    height: 100%;
-    padding-top: 40px;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .section .content-ubi .ubi .content-img img {
-    width: 75%;
-    height: 75%;
-    padding-bottom: 20px;
-    border-radius: 5px;
-    transition: transform 0.3s ease;
-  }
-
-  .section .content-ubi h2 {
-    color: white;
-  }
-
-  .section .content-ubi .ubi .content-img img:hover {
-    transform: translateY(-10px);
-  }
-
-  .section .content-ubi .title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    padding-top: 40px;
-  }
-
-  .section .content-ubi .content-img #mexico:hover {
-    border-radius: 5px;
-    content: url(../../assets/images/Flag_of_Mexico.png);
-  }
-
-  .section .content-ubi .content-img #colombia:hover {
-    border-radius: 5px;
-    content: url(../../assets/svg/Flag_Colombia.svg);
-  }
-
-  .section .content-ubi .content-img #eeuu:hover {
-    border-radius: 5px;
-    content: url(../../assets/images/Flag_of_the_United_States.png);
   }
 }
 
+/* Estilos específicos para pantallas medianas (min-width: 768px y max-width: 1199px) */
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   .section {
-    display: flex;
-    background-color: #080808ea;
-    width: 100%;
     height: 38rem;
-    color: white;
     flex-direction: column;
   }
 
-  .section h1 {
-    color: var(--azul_marino);
-  }
-
   .section .content-contact {
-    display: flex;
     width: 100%;
     height: 40%;
     padding-top: 40px;
     padding-left: 100px;
-    font-size: 24px;
-    flex-direction: column;
-    text-align: start;
-  }
-
-  .section .content-contact img {
-    filter: invert(48%) sepia(93%) saturate(1392%) hue-rotate(184deg)
-      brightness(94%) contrast(93%);
   }
 
   .section .content-ubi {
-    display: flex;
     width: 100%;
     height: 70%;
-    flex-direction: column;
-  }
-
-  .section .content-ubi .ubi {
-    display: flex;
-  }
-
-  .section .content-ubi .ubi .content-img {
-    display: flex;
-    width: 25%;
-    height: 100%;
-    padding-top: 40px;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .section .content-ubi .ubi .content-img img {
-    width: 75%;
-    height: 75%;
-    padding-bottom: 20px;
-    border-radius: 5px;
-    transition: transform 0.3s ease;
-  }
-
-  .section .content-ubi h2 {
-    color: white;
-  }
-
-  .section .content-ubi .ubi .content-img img:hover {
-    transform: translateY(-10px);
-  }
-
-  .section .content-ubi .title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    padding-top: 40px;
-  }
-
-  .section .content-ubi .content-img #mexico:hover {
-    border-radius: 5px;
-    content: url(../../assets/images/Flag_of_Mexico.png);
-  }
-
-  .section .content-ubi .content-img #colombia:hover {
-    border-radius: 5px;
-    content: url(../../assets/svg/Flag_Colombia.svg);
-  }
-
-  .section .content-ubi .content-img #eeuu:hover {
-    border-radius: 5px;
-    content: url(../../assets/images/Flag_of_the_United_States.png);
   }
 }
 
+/* Estilos específicos para pantallas pequeñas (max-width: 767px) */
 @media only screen and (max-width: 767px) {
   .section {
-    display: flex;
-    background-color: #080808ea;
-    width: 100%;
-    /* height: 80rem; */
     height: fit-content;
     padding-bottom: 2rem;
-    color: white;
     flex-direction: column;
   }
 
   .section h1 {
-    color: var(--azul_marino);
     font-size: 25px;
   }
 
@@ -203,40 +137,19 @@
   }
 
   .section .content-contact {
-    display: flex;
     width: 100%;
     height: 20%;
     padding-top: 40px;
     padding-left: 100px;
-    font-size: 24px;
-    flex-direction: column;
-    text-align: start;
-  }
-
-  .section .content-contact img {
-    filter: invert(48%) sepia(93%) saturate(1392%) hue-rotate(184deg)
-      brightness(94%) contrast(93%);
   }
 
   .section .content-ubi {
-    display: flex;
     width: 100%;
     height: 80%;
-    flex-direction: column;
   }
 
   .section .content-ubi .ubi {
-    display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .section .content-ubi .ubi .content-img {
-    display: flex;
-    width: 25%;
-    height: 100%;
-    padding-top: 40px;
     align-items: center;
     flex-direction: column;
   }
@@ -244,39 +157,5 @@
   .section .content-ubi .ubi .content-img img {
     width: 250%;
     height: 100%;
-    padding-bottom: 20px;
-    border-radius: 5px;
-    transition: transform 0.3s ease;
-  }
-
-  .section .content-ubi h2 {
-    color: white;
-  }
-
-  .section .content-ubi .ubi .content-img img:hover {
-    transform: translateY(-10px);
-  }
-
-  .section .content-ubi .title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    padding-top: 40px;
-  }
-
-  .section .content-ubi .content-img #mexico:hover {
-    border-radius: 5px;
-    content: url(../../assets/images/Flag_of_Mexico.png);
-  }
-
-  .section .content-ubi .content-img #colombia:hover {
-    border-radius: 5px;
-    content: url(../../assets/svg/Flag_Colombia.svg);
-  }
-
-  .section .content-ubi .content-img #eeuu:hover {
-    border-radius: 5px;
-    content: url(../../assets/images/Flag_of_the_United_States.png);
   }
 }
