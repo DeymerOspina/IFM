@@ -19,7 +19,7 @@
   article .contain .info-contain {
     display: flex;
     width: 30%;
-    height: 220px;
+    height: 15rem;
     background-color: white;
     border-radius: 10px;
     box-shadow: 2px 5px 8px 2px #ececec;
@@ -41,18 +41,18 @@
   }
 
   article .contain .info-contain .icon img {
-    width: 100px;
-    height: 160px;
+    width: 5rem;
+    height: 8rem;
   }
 
   article .contain .info-contain h1 {
-    font-size: 18px;
+    font-size: 14px;
     padding-bottom: 10px;
     font-family: "Inter", sans-serif;
   }
 
   article .contain .info-contain p {
-    font-size: 15px;
+    font-size: 12px;
     font-family: "Inter", sans-serif;
   }
 }
