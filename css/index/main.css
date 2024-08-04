@@ -69,6 +69,10 @@ main #position-left,
 main #position-right {
   border: none;
   background: none;
+  display: flex;
+  position: absolute;
+  z-index: 3;
+  align-items: center;
 }
 
 main #position-left:hover,
@@ -255,11 +259,13 @@ main .logo-contain .buttoms a:hover span:nth-child(4) {
   main #position-left {
     top: 40%;
     left: 2%;
+    justify-content: end;
   }
 
   main #position-right {
     top: 40%;
     left: 80%;
+    justify-content: start;
   }
 
   main .logo-contain .buttoms a,
