@@ -106,6 +106,7 @@ main #contain-1 .contain-service .button-container button:hover {
 }
 
 @media only screen and (min-width: 1200px) {
+  
   main #contain-1 .contain-text {
     width: 50%;
     height: 100%;

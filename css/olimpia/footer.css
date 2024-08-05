@@ -71,6 +71,7 @@ footer img {
 
 @media only screen and (max-width: 767px) {
   footer {
+    height: 12.5rem;
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;

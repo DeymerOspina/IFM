@@ -22,7 +22,7 @@ header .contain-img {
   display: none;
   width: 80%;
   height: 80%;
-  margin: 0px 80px;
+  /* margin: 0px 80px; */
   color: white;
   justify-content: center;
   align-items: center;
