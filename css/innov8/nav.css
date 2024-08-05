@@ -1,4 +1,5 @@
-/* Estilos generales (no dependen del tamaño de la pantalla) */
+@import url(../index/colors.css);
+
 nav {
   position: fixed;
   top: 0;
@@ -50,7 +51,8 @@ nav {
   color: var(--naranja_neon); /* Color con scrolled */
 }
 
-/* Back Button */
+/* Back */
+
 .back button {
   border: none;
   background: none;
@@ -73,7 +75,6 @@ nav {
   transition: 0.1s;
 }
 
-/* Language Toggle Button */
 nav #languageToggle {
   border: none;
   background: none;
@@ -94,28 +95,66 @@ nav #languageToggle:hover {
   transition: 0.25s;
 }
 
-/* Estilos para pantallas grandes */
 @media only screen and (min-width: 1200px) {
-  /* Estos estilos ya están definidos en los estilos generales */
-}
+  .logo img {
+    height: 70px;
+    margin-left: 20px;
+  }
 
-/* Estilos para pantallas medianas */
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
   .back button {
-    left: 94%;
+    width: 50px;
+    height: 50px;
+    top: 90%;
+    left: 95%;
+  }
+
+  nav #languageToggle {
+    width: 100px;
+    height: 50px;
+  }
+
+  nav #languageToggle:hover {
+    background-color: var(--naranja_neon);
   }
 }
 
-/* Estilos para pantallas pequeñas */
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
   .logo img {
-    height: 0px; /* Ajusta el tamaño del logo según sea necesario */
+    height: 70px;
+    margin-left: 20px;
+  }
+
+  .back button {
+    width: 50px;
+    height: 50px;
+    top: 90%;
+    left: 94%;
+  }
+
+  nav #languageToggle {
+    width: 100px;
+    height: 50px;
+  }
+
+  nav #languageToggle:hover {
+    background-color: var(--naranja_neon);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  nav {
+    font-size: 10px;
+  }
+
+  .logo img {
+    height: 0px;
     margin-left: 0px;
   }
 
   .back button {
     width: 40px;
     height: 40px;
+    top: 90%;
     left: 80%;
   }
 
@@ -123,5 +162,9 @@ nav #languageToggle:hover {
     width: 40px;
     height: 25px;
     font-size: 10px;
+  }
+
+  nav #languageToggle:hover {
+    background-color: var(--naranja_neon);
   }
 }

@@ -1,7 +1,7 @@
-/* Estilos generales (no cambian en @media) */
 header {
   display: flex;
   width: 100%;
+  height: 974px;
   background-color: rgba(255, 255, 255, 0);
   justify-content: center;
   align-items: center;
@@ -16,44 +16,29 @@ header .static-image {
   top: 0;
   left: 0;
   width: 100%;
+  height: 100%;
+  /* background-image: url("tu-imagen.jpg"); */
   background-size: cover;
   background-attachment: fixed;
   z-index: -1; /* Para que quede detrás del contenido */
   filter: brightness(70%);
 }
 
-/* Estilos específicos para pantallas grandes */
 @media only screen and (min-width: 1200px) {
   header {
     height: 974px;
   }
-
-  header .static-image {
-    height: 100%;
-    /* background-image: url("tu-imagen.jpg"); */
-  }
 }
 
-/* Estilos específicos para pantallas medianas */
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   header {
     height: 974px;
   }
-
-  header .static-image {
-    height: 100%;
-    /* background-image: url("tu-imagen.jpg"); */
-  }
 }
 
-/* Estilos específicos para pantallas pequeñas */
 @media only screen and (max-width: 767px) {
   header {
     height: 100vh;
-  }
-
-  header .static-image {
-    height: 100%;
   }
 
   header #logo {

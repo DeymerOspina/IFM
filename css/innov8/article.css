@@ -1,8 +1,8 @@
-/* Estilos generales (no dependen del tamaño de la pantalla) */
 article {
   display: flex;
   background-color: #191919;
   width: 100%;
+  height: 420px;
   color: white;
 }
 
@@ -12,7 +12,8 @@ article h1 {
 
 article .content-contact {
   display: flex;
-  width: 100%;
+  width: 30%;
+  height: 100%;
   padding-top: 40px;
   padding-left: 100px;
   font-size: 24px;
@@ -27,7 +28,8 @@ article .content-contact img {
 
 article .content-ubi {
   display: flex;
-  width: 100%;
+  width: 70%;
+  height: 100%;
   flex-direction: column;
 }
 
@@ -38,15 +40,22 @@ article .content-ubi .ubi {
 article .content-ubi .ubi .content-img {
   display: flex;
   width: 25%;
+  height: 100%;
   padding-top: 40px;
   align-items: center;
   flex-direction: column;
 }
 
 article .content-ubi .ubi .content-img img {
+  width: 75%;
+  height: 75%;
   padding-bottom: 20px;
   border-radius: 5px;
   transition: transform 0.3s ease;
+}
+
+article .content-ubi .ubi .content-img img:hover {
+  transform: translateY(-10px);
 }
 
 article .content-ubi .title {
@@ -57,28 +66,25 @@ article .content-ubi .title {
   padding-top: 40px;
 }
 
-article .content-ubi .content-img #mexico:hover,
-article .content-ubi .content-img #colombia:hover,
-article .content-ubi .content-img #eeuu:hover {
-  border-radius: 5px;
-}
-
 article .content-ubi .content-img #mexico:hover {
+  border-radius: 5px;
   content: url(../../assets/images/Flag_of_Mexico.png);
 }
 
 article .content-ubi .content-img #colombia:hover {
+  border-radius: 5px;
   content: url(../../assets/svg/Flag_Colombia.svg);
 }
 
 article .content-ubi .content-img #eeuu:hover {
+  border-radius: 5px;
   content: url(../../assets/images/Flag_of_the_United_States.png);
 }
 
-/* Estilos para pantallas grandes */
 @media only screen and (min-width: 1200px) {
   article {
     height: 420px;
+    color: white;
   }
 
   article .content-contact {
@@ -95,26 +101,22 @@ article .content-ubi .content-img #eeuu:hover {
     width: 75%;
     height: 75%;
   }
-
-  article .content-ubi .content-img #mexico:hover,
-  article .content-ubi .content-img #colombia:hover,
-  article .content-ubi .content-img #eeuu:hover {
-    border-radius: 5px;
-  }
 }
 
-/* Estilos para pantallas medianas */
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   article {
     height: 38rem;
+    color: white;
     flex-direction: column;
   }
 
   article .content-contact {
+    width: 100%;
     height: 40%;
   }
 
   article .content-ubi {
+    width: 100%;
     height: 70%;
   }
 
@@ -124,11 +126,11 @@ article .content-ubi .content-img #eeuu:hover {
   }
 }
 
-/* Estilos para pantallas pequeñas */
 @media only screen and (max-width: 767px) {
   article {
     height: fit-content;
     padding-bottom: 2rem;
+    color: white;
     flex-direction: column;
   }
 
@@ -136,18 +138,22 @@ article .content-ubi .content-img #eeuu:hover {
     font-size: 25px;
   }
 
-  article h2,
+  article h2 {
+    font-size: 15px;
+  }
+
   article p {
     font-size: 15px;
   }
 
   article .content-contact {
+    width: 100%;
     height: 20%;
   }
 
   article .content-ubi {
+    width: 100%;
     height: 80%;
-    flex-direction: column;
   }
 
   article .content-ubi .ubi {

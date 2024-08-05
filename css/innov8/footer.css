@@ -1,6 +1,5 @@
 @import url(../index/colors.css);
 
-/* Estilos generales (no dependen del tamaño de la pantalla) */
 footer {
   display: flex;
   width: 100%;
@@ -28,35 +27,55 @@ footer #redes {
 }
 
 footer img {
+  width: 60px;
   padding: 10px;
   filter: invert(48%) sepia(93%) saturate(1392%) hue-rotate(184deg)
     brightness(94%) contrast(93%);
   /* filter: invert(); */
 }
 
-/* Estilos para pantallas grandes */
 @media only screen and (min-width: 1200px) {
   footer {
     height: 200px;
   }
 
+  footer .contain {
+    width: 50%;
+    height: 100%;
+    color: whitesmoke;
+  }
+
+  footer #redes {
+    width: 35%;
+    height: 100%;
+  }
+
   footer img {
     width: 60px;
   }
 }
 
-/* Estilos para pantallas medianas */
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   footer {
     height: 12.5rem;
   }
 
+  footer .contain {
+    width: 50%;
+    height: 100%;
+    color: whitesmoke;
+  }
+
+  footer #redes {
+    width: 35%;
+    height: 100%;
+  }
+
   footer img {
     width: 60px;
   }
 }
 
-/* Estilos para pantallas pequeñas */
 @media only screen and (max-width: 767px) {
   footer {
     height: 12.5rem;

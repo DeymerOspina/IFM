@@ -1,6 +1,7 @@
 header {
   display: flex;
   width: 100%;
+  height: 974px;
   background-color: black;
   justify-content: center;
   align-items: center;
@@ -21,18 +22,21 @@ header .contain-img {
   display: none;
   width: 80%;
   height: 80%;
-  /* margin: 0px 80px; */
+  margin: 0px 80px;
   color: white;
   justify-content: center;
   align-items: center;
   overflow: hidden;
   position: absolute;
   top: 50%;
+  left: 850px;
   transform: translate(-50%, -50%);
   flex-direction: column;
 }
 
 header .contain-img img {
+  width: 60%;
+  height: 80%;
   object-fit: cover;
   opacity: 0;
   animation: fadeInAnimation 2s forwards;
@@ -60,7 +64,12 @@ header .contain video {
   }
 
   header .contain-img {
-    left: 58rem;
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    margin: 0px 80px;
+
+    left: 850px;
   }
 
   header .contain-img img {
@@ -75,6 +84,11 @@ header .contain video {
   }
 
   header .contain-img {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    margin: 0px 80px;
+
     left: 29.5rem;
   }
 
@@ -87,10 +101,15 @@ header .contain video {
 @media only screen and (max-width: 767px) {
   header {
     height: 100vh;
+
     flex-direction: column;
   }
 
   header .contain-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0px 70px;
     left: 8rem;
   }
 

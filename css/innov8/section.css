@@ -2,30 +2,27 @@ section {
   display: flex;
   background-color: #191919;
   width: 100%;
-  color: white;
+  height: 150px;
   align-items: center;
   padding-left: 15%;
   font-size: 40px;
+  color: white;
 }
 
-/* Estilos para pantallas grandes */
 @media only screen and (min-width: 1200px) {
   section {
     height: 150px;
   }
 }
 
-/* Estilos para pantallas medianas */
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   section {
     height: 150px;
   }
 }
 
-/* Estilos para pantallas pequeñas */
 @media only screen and (max-width: 767px) {
   section {
     height: 4rem;
-    font-size: 40px; /* Puedes ajustar el tamaño del texto si es necesario */
   }
 }
