@@ -21,7 +21,7 @@ header .contain-img {
   display: none;
   width: 80%;
   height: 80%;
-  margin: 0px 80px;
+  /* margin: 0px 80px; */
   color: white;
   justify-content: center;
   align-items: center;
@@ -60,7 +60,7 @@ header .contain video {
   }
 
   header .contain-img {
-    left: 850px;
+    left: 58rem;
   }
 
   header .contain-img img {

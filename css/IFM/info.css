@@ -41,9 +41,9 @@ main #contain-1 .contain-text {
   color: white;
   flex-direction: column;
   z-index: 1;
-  justify-content: center;
   padding-right: 15%;
   padding-left: 5%;
+  justify-content: center;
 }
 
 main #contain-1 .contain-text p,
@@ -95,6 +95,7 @@ main #contain-1 .contain-service .button-container button:hover {
 
 /* Estilos específicos para pantallas grandes (min-width: 1200px) */
 @media only screen and (min-width: 1200px) {
+  
   main #contain-1 .contain-text {
     width: 50%;
   }

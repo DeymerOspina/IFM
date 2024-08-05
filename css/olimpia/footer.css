@@ -31,22 +31,34 @@ footer img {
   padding: 10px;
   filter: invert(75%) sepia(83%) saturate(511%) hue-rotate(356deg)
     brightness(100%) contrast(107%);
-  /* filter: invert(); */
 }
 
 /* Estilos específicos para pantallas grandes */
 @media only screen and (min-width: 1200px) {
-  /* Ya no se necesitan estilos específicos aquí porque son los generales */
+  footer {
+    height: 200px;
+  }
+
+  footer img {
+    width: 60px;
+  }
 }
 
 /* Estilos específicos para pantallas medianas */
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
-  /* Ya no se necesitan estilos específicos aquí porque son los generales */
+  footer {
+    height: 12.5rem;
+  }
+
+  footer img {
+    width: 60px;
+  }
 }
 
 /* Estilos específicos para pantallas pequeñas */
 @media only screen and (max-width: 767px) {
   footer {
+    height: 12.5rem;
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;

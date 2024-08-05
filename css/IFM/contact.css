@@ -12,9 +12,12 @@
 
 .section .content-contact {
   display: flex;
+  width: 100%;
+  padding-top: 40px;
+  padding-left: 100px;
+  font-size: 24px;
   flex-direction: column;
   text-align: start;
-  font-size: 24px;
 }
 
 .section .content-contact img {
@@ -24,6 +27,7 @@
 
 .section .content-ubi {
   display: flex;
+  width: 100%;
   flex-direction: column;
 }
 
@@ -33,9 +37,10 @@
 
 .section .content-ubi .ubi .content-img {
   display: flex;
+  width: 25%;
+  padding-top: 40px;
   align-items: center;
   flex-direction: column;
-  padding-top: 40px;
 }
 
 .section .content-ubi .ubi .content-img img {
