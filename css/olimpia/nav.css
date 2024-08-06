@@ -89,6 +89,13 @@ nav #languageToggle {
   border-radius: 5px;
 }
 
+nav #languageToggle #languageImage {
+  display: flex;
+  width: 15px;
+  height: 12px;
+  border-radius: 100%;
+}
+
 nav #languageToggle:hover {
   background-color: var(--rojo);
   color: white;
