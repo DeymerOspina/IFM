@@ -10,5 +10,7 @@ document.getElementById("languageToggle").addEventListener("click", () => {
   });
 
   document.getElementById("languageToggle").textContent =
-    newLang === "es" ? "English" : "Español";
+    newLang === "es" ? "En / Es" : "Es / En";
+  // document.getElementById("languageToggle").textContent =
+  //   newLang === "es" ? "English" : "Español";
 });

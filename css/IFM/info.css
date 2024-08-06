@@ -88,11 +88,12 @@ top: 50%; */
   z-index: 0;
   padding-left: 40px;
 }
-/* Preguntar diseño */
-/* main #contain-1 .contain-service .button-container:hover .content {
+
+main #contain-1 .contain-service .button-container:hover .content {
 opacity: 1;
 transform: translateX(0);
-} */
+}
+
 main #contain-1 .contain-service .button-container:focus-within .content {
   opacity: 1;
   transform: translateX(0);

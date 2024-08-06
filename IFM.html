@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/IFM/responsive.css">
+    <link rel="stylesheet" href="css/IFM/responsive.css" />
     <link rel="icon" href="assets/icons/ifmfavicon.ico" />
     <script src="js/videos.js" defer></script>
     <script src="js/time-video.js" defer></script>
@@ -75,7 +75,9 @@
                 <img src="assets/svg/add_circle.svg" alt="Servicios de IFM 1" />
               </button>
               <div id="content-service-1" class="content">
-                <h1>Servicio 1</h1>
+                <h1 data-en="Carrer Management" data-es="Gestion de Carrera">
+                  Gestion de Carrera
+                </h1>
                 <p>Descripción del Servicio 1</p>
               </div>
             </div>
@@ -84,7 +86,12 @@
                 <img src="assets/svg/add_circle.svg" alt="Servicios de IFM 2" />
               </button>
               <div id="content-service-2" class="content">
-                <h1>Servicio 2</h1>
+                <h1
+                  data-en="Contract Negotiation"
+                  data-es="Negociacion de Contratos"
+                >
+                  Negociacion de Contratos
+                </h1>
                 <p>Descripción del Servicio 2</p>
               </div>
             </div>
@@ -93,7 +100,12 @@
                 <img src="assets/svg/add_circle.svg" alt="Servicios de IFM 3" />
               </button>
               <div id="content-service-3" class="content">
-                <h1>Servicio 3</h1>
+                <h1
+                  data-en="Performance Development"
+                  data-es="Desarrollo de Redimiento"
+                >
+                  Desarrollo de Redimiento
+                </h1>
                 <p>Descripción del Servicio 3</p>
               </div>
             </div>
@@ -102,7 +114,9 @@
                 <img src="assets/svg/add_circle.svg" alt="Servicios de IFM 4" />
               </button>
               <div id="content-service-4" class="content">
-                <h1>Servicio 4</h1>
+                <h1 data-en="Data & Analytics" data-es="Datos y Análisis">
+                  Datos y Análisis
+                </h1>
                 <p>Descripción del Servicio 4</p>
               </div>
             </div>
@@ -111,83 +125,35 @@
       </main>
 
       <article>
-        <div class="contain">
-          <div class="info-contain">
-            <div class="icon">
-              <img src="assets/images/beige.jpg" alt="IFM Profesionales 1" />
-            </div>
-            <div class="title">
-              <h1
-                data-en="Edier Ocampo - Professional soccer player"
-                data-es="Edier Ocampo - Futbolista profesional"
-              >
-                Edier Ocampo - Futbolista profesional
-              </h1>
-              <p
-                data-en="Thanks to IFM, I have been able to advance my career and continue to achieve my goals."
-                data-es="Gracias a IFM, he logrado avanzar mi carrera y seguir cumpliendo mis metas."
-              >
-                Gracias a IFM, he logrado avanzar mi carrera y seguir cumpliendo
-                mis metas.
-              </p>
-              <br />
-              <p data-en="July 21, 2024" data-es="Julio 21, 2024">
-                Julio 21, 2024
-              </p>
-            </div>
-          </div>
-          <div class="info-contain">
-            <div class="icon">
-              <img src="assets/images/beige.jpg" alt="IFM Profesionales 2" />
-            </div>
-            <div class="title">
-              <h1
-                data-en="Javier Pérez - Professional soccer player"
-                data-es="Javier Pérez - Futbolista profesional"
-              >
-                Javier Pérez - Futbolista profesional
-              </h1>
-              <p
-                data-en="IFM provided me with the perfect platform to showcase my talent. Their team was always there to advise and support me every step of the way. Today, I play in one of the most competitive leagues in the world, and I couldn't have done it without them."
-                data-es="IFM me proporcionó la plataforma perfecta para mostrar mi talento. Su equipo siempre estuvo ahí para asesorarme y apoyarme en cada paso del camino. Hoy, juego en una de las ligas más competitivas del mundo, y no podría haberlo hecho sin ellos."
-              >
-                IFM me proporcionó la plataforma perfecta para mostrar mi
-                talento. Su equipo siempre estuvo ahí para asesorarme y apoyarme
-                en cada paso del camino. Hoy, juego en una de las ligas más
-                competitivas del mundo, y no podría haberlo hecho sin ellos.
-              </p>
-              <br />
-              <p data-en="July 21, 2024" data-es="Julio 21, 2024">
-                Julio 21, 2024
-              </p>
-            </div>
-          </div>
-          <div class="info-contain">
-            <div class="icon">
-              <img src="assets/images/beige.jpg" alt="IFM Profesionales 3" />
-            </div>
-            <div class="title">
-              <h1
-                data-en="Carlos Rivas - Professional soccer player"
-                data-es="Carlos Rivas - Futbolista profesional"
-              >
-                Carlos Rivas - Futbolista profesional
-              </h1>
-              <p
-                data-en="The comprehensive support I received from IFM was critical to my success. Thanks to their marketing management, my profile has grown exponentially, and now I am a reference both on and off the field."
-                data-es="El apoyo integral que recibí de IFM fue fundamental para mi éxito. Gracias a su gestión de marketing, mi perfil ha crecido exponencialmente, y ahora soy un referente tanto dentro como fuera del campo."
-              >
-                El apoyo integral que recibí de IFM fue fundamental para mi
-                éxito. Gracias a su gestión de marketing, mi perfil ha crecido
-                exponencialmente, y ahora soy un referente tanto dentro como
-                fuera del campo.
-              </p>
-              <br />
-              <p data-en="July 21, 2024" data-es="Julio 21, 2024">
-                Julio 21, 2024
-              </p>
-            </div>
-          </div>
+        <div id="contain1"></div>
+        <div id="contain2">
+          <form action="/sumbit_form" method="post">
+            <label for="name">Nombre:</label><br />
+            <input type="text" id="name" name="name" required /><br /><br />
+
+            <label for="email">Correo electrónico:</label><br />
+            <input type="email" id="email" name="email" required /><br /><br />
+
+            <label for="subject">Asunto:</label><br />
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              required
+            /><br /><br />
+
+            <label for="message">Mensaje:</label><br />
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              cols="50"
+              required
+            ></textarea
+            ><br /><br />
+
+            <input type="submit" value="Enviar" id="submit"/>
+          </form>
         </div>
       </article>
 

@@ -50,7 +50,7 @@
             id="fondo"
           />
           <div class="contain-text">
-            <h1>C.D. OLIMPIA</h1>
+            <h1>ACADEMY EXTENSIONS</h1>
             <br />
             <p
               data-en="C.D. Olimpia is dedicated to the formation and development of young soccer players, offering high quality training programs designed to foster talent and passion for the sport. Our mission is to nurture soccer skills and core values such as teamwork, discipline and perseverance. Through a combination of advanced training techniques and a holistic approach, C.D. Olimpia is committed to developing well-rounded athletes ready to meet the challenges both on and off the field."
@@ -76,7 +76,12 @@
                 />
               </button>
               <div id="content-service-1" class="content">
-                <h1>Servicio 1</h1>
+                <h1
+                  data-en="Youth Player Development"
+                  data-es="Desarrollo de Jugadores Jóvenes"
+                >
+                  Desarrollo de Jugadores Jóvenes
+                </h1>
                 <p>Descripción del Servicio 1</p>
               </div>
             </div>
@@ -88,7 +93,9 @@
                 />
               </button>
               <div id="content-service-2" class="content">
-                <h1>Servicio 2</h1>
+                <h1 data-en="Training Camps" data-es="Campos de Entrenamiento">
+                  Campos de Entrenamiento
+                </h1>
                 <p>Descripción del Servicio 2</p>
               </div>
             </div>
@@ -100,7 +107,12 @@
                 />
               </button>
               <div id="content-service-3" class="content">
-                <h1>Servicio 3</h1>
+                <h1
+                  data-en="Experienced Coaching Staff"
+                  data-es="Personal de Entrenamiento Experimentado"
+                >
+                  Personal de Entrenamiento Experimentado
+                </h1>
                 <p>Descripción del Servicio 3</p>
               </div>
             </div>
@@ -112,13 +124,51 @@
                 />
               </button>
               <div id="content-service-4" class="content">
-                <h1>Servicio 4</h1>
+                <h1
+                  data-en="Dedicated Resources and Equipment"
+                  data-es="Recursos y Equipos Dedicados"
+                >
+                  Recursos y Equipos Dedicados
+                </h1>
                 <p>Descripción del Servicio 4</p>
               </div>
             </div>
           </div>
         </div>
       </main>
+
+      <div class="formulario">
+        <div id="contain1"></div>
+        <div id="contain2">
+          <form action="/sumbit_form" method="post">
+            <label for="name">Nombre:</label><br />
+            <input type="text" id="name" name="name" required /><br /><br />
+
+            <label for="email">Correo electrónico:</label><br />
+            <input type="email" id="email" name="email" required /><br /><br />
+
+            <label for="subject">Asunto:</label><br />
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              required
+            /><br /><br />
+
+            <label for="message">Mensaje:</label><br />
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              cols="50"
+              required
+            ></textarea
+            ><br /><br />
+
+            <input type="submit" value="Enviar" id="submit" />
+          </form>
+        </div>
+      </div>
 
       <div class="section">
         <div class="content-contact">
