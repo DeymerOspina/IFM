@@ -21,6 +21,11 @@ const imageContainers = [
   document.getElementById("image-contain-1"),
   document.getElementById("image-contain-2"),
   document.getElementById("image-contain-3"),
+  document.getElementById("image-contain-4"),
+  document.getElementById("image-contain-5"),
+  document.getElementById("image-contain-6"),
+  document.getElementById("image-contain-7"),
+  document.getElementById("image-contain-8"),
 ];
 
 let currentIndex = 0;
