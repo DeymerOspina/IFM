@@ -15,12 +15,20 @@
   top: 2rem;
   right: 3rem;
   padding: 0rem 4rem;
+  text-transform: none;
 }
 
 .button_language #languageToggle:hover {
   background-color: #024283;
   color: white;
   transition: 0.25s;
+}
+
+.button_language #languageToggle #languageImage{
+ display: flex;
+ width: 15px;
+ height: 12px;
+ border-radius: 100%;
 }
 
 @media only screen and (min-width: 1200px) {
