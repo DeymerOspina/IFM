@@ -24,6 +24,10 @@ header .static-image {
   filter: brightness(70%);
 }
 
+header #logo{
+  max-width: 60%;
+}
+
 @media only screen and (min-width: 1200px) {
   header {
     height: 974px;

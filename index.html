@@ -14,6 +14,7 @@
     <meta name="robots" content="index, follow" />
     <link rel="stylesheet" href="css/index/general.css" />
     <link rel="stylesheet" href="css/index/lenguage.css" />
+    <link rel="stylesheet" href="css/index/supnav.css" />
     <link rel="stylesheet" href="css/index/main.css" />
     <link rel="stylesheet" href="css/index/normalize.css" />
     <link rel="icon" href="assets/icons/innovatefavicon.ico" />
@@ -36,13 +37,54 @@
         <script src="js/change_language.js"></script>
       </div>
 
+      <button id="menuNav">
+        <img src="assets/svg/menu.svg" alt="" />
+      </button>
+      <div id="menuContent" class="hidden">
+        <div class="contenido"><a href="IFM.html">IFM</a></div>
+        <div class="contenido"><a href="innov8.html">Innov8</a></div>
+        <div class="contenido">
+          <a href="olimpia.html">Academy Extension</a>
+        </div>
+        <div class="contenido">
+          <p>Acerca de Nosotros</p>
+          <p>
+            <button
+              id="position-left"
+              data-en="INTRODUCTION"
+              data-es="INTRODUCCION"
+            >
+              INTRODUCCION
+            </button>
+          </p>
+          <p>
+            <button
+              id="position-right"
+              data-en="ABOUT US"
+              data-es="SOBRE NOSOTROS"
+            >
+              SOBRE NOSOTROS
+            </button>
+          </p>
+        </div>
+      </div>
+      <script src="js/supcard.js"></script>
+
       <div class="image-contain" id="image-contain-1">
         <!-- <img src="assets/images/instagram1.jpeg" alt="Imagen de IFM 1" /> -->
-         <video src="assets/WeTransfer/Images/1. Pagina Inicial/1. Édier.mp4" alt="Video de IFM" muted></video>
+        <video
+          src="assets/WeTransfer/Images/1. Pagina Inicial/1. Édier.mp4"
+          alt="Video de IFM"
+          muted
+        ></video>
       </div>
       <div class="image-contain" id="image-contain-2">
         <!-- <img src="assets/images/inicio1.jpg" alt="Imagen de IFM 1" /> -->
-         <video src="assets/WeTransfer/Images/1. Pagina Inicial/2. Rai.mp4" alt="Video de IFM" muted></video>
+        <video
+          src="assets/WeTransfer/Images/1. Pagina Inicial/2. Rai.mp4"
+          alt="Video de IFM"
+          muted
+        ></video>
       </div>
       <div class="image-contain" id="image-contain-3">
         <img
@@ -81,12 +123,12 @@
         />
       </div>
 
-      <button id="position-left" data-en="INTRODUCTION" data-es="INTRODUCCION">
+      <!-- <button id="position-left" data-en="INTRODUCTION" data-es="INTRODUCCION">
         INTRODUCCION
       </button>
       <button id="position-right" data-en="ABOUT US" data-es="SOBRE NOSOTROS">
         SOBRE NOSOTROS
-      </button>
+      </button> -->
 
       <div id="overlay" class="hidden"></div>
 
@@ -154,7 +196,10 @@
       <script src="js/cards.js"></script>
 
       <div class="logo-contain">
-        <img src="assets/icons/innovativelogorb.png" alt="Logo de Innovative" />
+        <img
+          src="assets/LogosInnovative/INNOVATIVE GROUP-01.png"
+          alt="Logo de Innovative"
+        />
         <div class="buttoms">
           <a
             href="IFM.html"
@@ -183,14 +228,14 @@
           <a
             href="olimpia.html"
             id="desing-olimpia"
-            data-en="About C.D. Olimpia"
-            data-es="Conoce C.D. Olimpia"
+            data-en="Academy Extension"
+            data-es="Extencion Academica"
           >
             <span></span>
             <span></span>
             <span></span>
             <span></span>
-            Conoce C.D. Olimpia</a
+            Extencion Academica</a
           >
         </div>
       </div>

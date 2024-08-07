@@ -102,6 +102,8 @@ nav #languageToggle:hover {
   transition: 0.25s;
 }
 
+
+
 @media only screen and (min-width: 1200px) {
   .logo img {
     height: 70px;

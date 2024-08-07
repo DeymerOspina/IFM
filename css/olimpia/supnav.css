@@ -1,0 +1,88 @@
+#menuNav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.623);
+  border-radius: 5px;
+  position: absolute;
+  z-index: 100;
+  top: 2.5rem;
+  right: 13rem;
+  padding: 0rem 1rem;
+  text-transform: none;
+}
+
+#menuNav:hover {
+  background-color: #024283;
+  color: white;
+  transition: 0.25s;
+}
+
+/* #menuContent {
+  display: none;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ccc;
+  z-index: 5;
+} */
+#menuContent {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20rem;
+  background-color: #181818ef;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+  transform: translateX(-100%);
+  transition: transform 0.5s ease;
+  padding: 20px;
+  z-index: 5;
+  font-size: 25px;
+  padding: 100px 120px;
+  color: #c0c0c0;
+  justify-content: space-around;
+}
+
+#menuContent a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#menuContent a:hover {
+  color: white;
+  transition: 0.50s;
+}
+
+.show {
+  display: block;
+  animation: slideDown 0.5s forwards;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+}
+
+@media only screen and (max-width: 767px) {
+}

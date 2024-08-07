@@ -49,7 +49,7 @@ main .logo-contain {
 
 /* Borrar */
 
-main #position-left {
+/* main #position-left {
   display: flex;
   position: absolute;
   top: 50%;
@@ -68,7 +68,7 @@ main #position-right {
   align-items: center;
   z-index: 3;
   padding: 15px 20px;
-}
+} */
 
 #sidePanel2 {
   position: fixed;
@@ -132,8 +132,8 @@ main button {
 main #position-left:hover,
 main #position-right:hover {
   color: #255784;
-  background-color: #2196f3;
-  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  /* background-color: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3; */
   transition-delay: 0.1s;
   cursor: pointer;
 }
@@ -142,6 +142,9 @@ main #position-left,
 main #position-right {
   border: none;
   background: none;
+  padding: 4px 0px;
+  color: inherit;
+  
 }
 
 main .logo-contain .buttoms a:hover {
@@ -281,7 +284,7 @@ main .logo-contain .buttoms a:hover span:nth-child(4) {
     height: 100%;
   }
 
-  main #position-left {
+  /* main #position-left {
     top: 50%;
     left: 2%;
     justify-content: end;
@@ -293,7 +296,7 @@ main .logo-contain .buttoms a:hover span:nth-child(4) {
     justify-content: start;
 
     padding: 15px 20px;
-  }
+  } */
 
   #sidePanel2 {
     width: 500px;
@@ -322,7 +325,7 @@ main .logo-contain .buttoms a:hover span:nth-child(4) {
     height: 100%;
   }
 
-  main #position-left {
+  /* main #position-left {
     top: 40%;
     left: 2%;
     justify-content: end;
@@ -332,7 +335,7 @@ main .logo-contain .buttoms a:hover span:nth-child(4) {
     top: 40%;
     left: 80%;
     justify-content: start;
-  }
+  } */
 
   #sidePanel2 {
     width: 500px;
@@ -370,7 +373,7 @@ main .logo-contain .buttoms a:hover span:nth-child(4) {
     text-align: center;
   }
 
-  main #position-left {
+  /* main #position-left {
     left: 0;
     top: 10rem;
   }
@@ -378,7 +381,7 @@ main .logo-contain .buttoms a:hover span:nth-child(4) {
   main #position-right {
     right: 0;
     top: 10rem;
-  }
+  } */
 
   #sidePanel2 {
     width: 80%;

@@ -102,11 +102,21 @@ nav #languageToggle:hover {
   transition: 0.25s;
 }
 
+nav .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .logo img {
+  max-width: 100%;
+}
+
 @media only screen and (min-width: 1200px) {
-  .logo img {
+  /* .logo img {
     height: 70px;
     margin-left: 20px;
-  }
+  } */
 
   .back button {
     width: 50px;
