@@ -67,13 +67,18 @@ article #contain2 form #submit:hover {
 
 article #contain1 .content-contact {
   display: flex;
-  width: 30%;
-  height: 100%;
-  padding-top: 40px;
-  padding-left: 100px;
+  /* width: 100%;
+  height: 100%; */
   font-size: 24px;
   flex-direction: column;
   text-align: start;
+  justify-content: center;
+  align-items: center;
+}
+
+article #contain1 .content-contact h1 {
+  color: var(--azul_marino);
+  font-size: 50px;
 }
 
 article #contain1 .content-contact img {
@@ -87,7 +92,7 @@ article #contain1 .content-contact img {
   }
 
   article #contain1 .content-contact {
-    width: 30%;
+    width: 100%;
     height: 100%;
   }
 }
