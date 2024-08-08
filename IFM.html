@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/IFM/responsive.css" />
     <link rel="icon" href="assets/icons/favicon.png" />
     <script src="js/videos.js" defer></script>
-    <script src="js/time-video.js" defer></script>
+    <!-- <script src="js/time-video.js" defer></script> -->
     <script src="js/scroll.js" defer></script>
     <title>Innovative Football Management</title>
   </head>
@@ -39,10 +39,18 @@
 
       <header id="volver">
         <div class="contain">
-          <video id="video1" src="assets/videos/gol1.mp4" muted></video>
+          <video
+            id="video1"
+            src="assets/WeTransfer/Images/1. Pagina Inicial/1. Édier.mp4"
+            muted
+          ></video>
         </div>
         <div class="contain">
-          <video id="video2" src="assets/videos/gol2.mp4" muted></video>
+          <video
+            id="video2"
+            src="assets/WeTransfer/Images/1. Pagina Inicial/2. Rai.mp4"
+            muted
+          ></video>
         </div>
         <div class="contain-img">
           <!-- <img
@@ -84,18 +92,24 @@
           <div class="contain-service">
             <div class="button-container" id="services-1">
               <button>
-                <img src="assets/svg/add_circle.svg" alt="Servicios de IFM 1" />
+                <img
+                  src="assets/svg/gestion_de_carrera.svg"
+                  alt="Servicios de IFM 1"
+                />
               </button>
               <div id="content-service-1" class="content">
                 <h1 data-en="Carrer Management" data-es="Gestion de Carrera">
                   Gestion de Carrera
                 </h1>
-                <p>Descripción del Servicio 1</p>
+                <!-- <p>Descripción del Servicio 1</p> -->
               </div>
             </div>
             <div class="button-container" id="services-2">
               <button>
-                <img src="assets/svg/add_circle.svg" alt="Servicios de IFM 2" />
+                <img
+                  src="assets/svg/negociacion_de_contratos.svg"
+                  alt="Servicios de IFM 2"
+                />
               </button>
               <div id="content-service-2" class="content">
                 <h1
@@ -104,12 +118,15 @@
                 >
                   Negociacion de Contratos
                 </h1>
-                <p>Descripción del Servicio 2</p>
+                <!-- <p>Descripción del Servicio 2</p> -->
               </div>
             </div>
             <div class="button-container" id="services-3">
               <button>
-                <img src="assets/svg/add_circle.svg" alt="Servicios de IFM 3" />
+                <img
+                  src="assets/svg/desarrollo_de_rendimiento.svg"
+                  alt="Servicios de IFM 3"
+                />
               </button>
               <div id="content-service-3" class="content">
                 <h1
@@ -118,18 +135,21 @@
                 >
                   Desarrollo de Redimiento
                 </h1>
-                <p>Descripción del Servicio 3</p>
+                <!-- <p>Descripción del Servicio 3</p> -->
               </div>
             </div>
             <div class="button-container" id="services-4">
               <button>
-                <img src="assets/svg/add_circle.svg" alt="Servicios de IFM 4" />
+                <img
+                  src="assets/svg/datos_y_analisis.svg"
+                  alt="Servicios de IFM 4"
+                />
               </button>
               <div id="content-service-4" class="content">
                 <h1 data-en="Data & Analytics" data-es="Datos y Análisis">
                   Datos y Análisis
                 </h1>
-                <p>Descripción del Servicio 4</p>
+                <!-- <p>Descripción del Servicio 4</p> -->
               </div>
             </div>
           </div>
@@ -157,13 +177,18 @@
         </div>
         <div id="contain2">
           <form action="/sumbit_form" method="post">
-            <label for="name">Nombre:</label><br />
+            <label for="name" data-es="Nombre:" data-en="Name:">Nombre:</label
+            ><br />
             <input type="text" id="name" name="name" required /><br /><br />
 
-            <label for="email">Correo electrónico:</label><br />
+            <label for="email" data-es="Correo electrónico:" data-en="Email:"
+              >Correo electrónico:</label
+            ><br />
             <input type="email" id="email" name="email" required /><br /><br />
 
-            <label for="subject">Asunto:</label><br />
+            <label for="subject" data-es="Asunto:" data-en="Subject:"
+              >Asunto:</label
+            ><br />
             <input
               type="text"
               id="subject"
@@ -171,7 +196,9 @@
               required
             /><br /><br />
 
-            <label for="message">Mensaje:</label><br />
+            <label for="message" data-es="Mensaje:" data-en="Message:"
+              >Mensaje:</label
+            ><br />
             <textarea
               id="message"
               name="message"
@@ -181,7 +208,13 @@
             ></textarea
             ><br /><br />
 
-            <input type="submit" value="Enviar" id="submit" />
+            <input
+              type="submit"
+              id="submit"
+              value="Enviar"
+              data-es="Enviar"
+              data-en="Send"
+            />
           </form>
         </div>
       </article>
